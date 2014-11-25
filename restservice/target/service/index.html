@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<title>App</title>
+<head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+JSONTest = function() {
+
+    var resultDiv = $("#resultDivContainer");
+    var data = new Object();
+    data.title = "Vaibahv";
+    data.singer = "tekade";
+    $.ajax({
+        headers: { 
+            'Accept': 'application/json',
+            'Content-Type': 'application/json' 
+        },
+        'type': 'GET',
+        'url': 'http://localhost:8080/service/rest/json/track/get',
+        'data': JSON.stringify(data),
+        'dataType': 'json',        
+        success: function (result) {
+            switch (result) {
+                case true:
+                	var json = $.parseJSON(result); // create an object with the key of the array
+                	alert(json.html);
+                    break;
+                default:
+                	var json = JSON.stringify(result);
+                	alert(data);
+                	
+            }
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+        alert(xhr.status);
+        alert(thrownError);
+        }
+    });
+};
+
+</script>
+</head>
+<body>
+
+<h1>My jQuery JSON Web Page</h1>
+
+<div id="resultDivContainer"></div>
+
+<button type="button" onclick="JSONTest()">JSON</button>
+
+</body>
+</html> 

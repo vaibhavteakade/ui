@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-8">
+	   <title></title>
+	 </head/>
+	
+<body>
+ <button type="button" onclick="testCallback()">Click Me</button>
+</body>
+
+<script>
+function testCallback(){
+	console.log(testCall(5));
+}
+function testCall(value){
+value = value * value;
+return value;
+}
+
+
+function btnClick(){
+ var number = 1;
+while (number <= 100) {
+console.log("number " + number);
+if( (number%3==0) && (number%5==0) ){
+ console.log("finnBuzz");
+}else if (number%3==0){
+console.log("finn");
+}else if(number%5==0){
+console.log("Buzz");
+}else{
+console.log("trr");
+}
+number=number+1;
+} 
+}
+	
+</script>
+<html/>
