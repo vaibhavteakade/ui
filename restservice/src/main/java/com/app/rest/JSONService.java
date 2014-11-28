@@ -7,7 +7,6 @@ import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
@@ -16,17 +15,13 @@ import com.google.gson.Gson;
 
 @Path("/json/track")
 public class JSONService {
-	Gson gson = new Gson();
 	
-	public JSONService(){
-		System.out.println("Initlzing JSONService");
-	}
-
+		
 	@GET
 	@Path("/get")
 	//@Produces(MediaType.APPLICATION_JSON)
 	public String getTrackInJSON() {
-
+		Gson gson = new Gson();
 		List<Track> tracks = new ArrayList<Track>();
 		Track track = new Track();
 		track.setTitle("t");

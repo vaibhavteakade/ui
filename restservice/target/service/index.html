@@ -2,8 +2,43 @@
 <html>
 <title>App</title>
 <head>
+</head>
+<body>
+
+<table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>title</th>
+                <th>singer</th>
+            </tr>
+        </thead>
+ 
+        <tfoot>
+            <tr>
+                <th>title</th>
+                <th>singer</th>
+            </tr>
+        </tfoot>
+    </table>
+
+<div id="resultDivContainer"></div>
+
+<button type="button" onclick="JSONTest()">JSON</button>
+
+</body>
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript">
+
+$(document).ready(function() {
+    $('#example').dataTable( {
+        "processing": true,
+        "serverSide": true,
+        "ajax": "http://localhost:8080/service/rest/json/track/get"
+    } );
+} );
+
 
 JSONTest = function() {
 
@@ -40,14 +75,5 @@ JSONTest = function() {
 };
 
 </script>
-</head>
-<body>
 
-<h1>My jQuery JSON Web Page</h1>
-
-<div id="resultDivContainer"></div>
-
-<button type="button" onclick="JSONTest()">JSON</button>
-
-</body>
 </html> 
