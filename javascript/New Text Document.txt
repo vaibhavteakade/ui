@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html onload="myFunction()">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-8">
+	   <title></title>
+	 </head/>
+	
+<body>
+ <button type="button" onclick="testCallback()">Click Me</button>
+</body>
+
+<script>
+ window.onload = function () { 
+
+       alert("Load Complete");
+    }
+</script>
+<html/>

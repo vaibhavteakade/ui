@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 
-import com.app.cache.Manager;
+import com.app.cache.CacheManager;
 import com.app.cache.Utility;
 import com.google.gson.Gson;
 
@@ -32,6 +32,24 @@ public class DashboardDTO {
 				+ serialNumber + "]";
 	}
 	public static void main (String[] args){
+		
+		// Dashboard generation code
+		DashboardDTO dashboardDTO = new DashboardDTO();
+		Cpu cpu = new Cpu();
+		cpu.overHead = 58;
+		cpu.usage = 74;
+		dashboardDTO.cpu = cpu;
+		dashboardDTO.handlers = 159753;
+		dashboardDTO.memory_free = 60;
+		dashboardDTO.memory_total = 115;
+		dashboardDTO.memory_used = 115-60;
+		dashboardDTO.processes = 15825;
+		dashboardDTO.productVersion = "1.1.5";
+		dashboardDTO.serialNumber = "XMTR-58958-CTX";
+		dashboardDTO.threads = 587456;
+		dashboardDTO.up_time = new Date();
+		
+		
 //		Utility.init();
 //		Manager manager = Manager.getInstance();
 //		try {
@@ -81,6 +99,7 @@ public class DashboardDTO {
 		Gson gson = new Gson();
 		System.out.println(gson.toJson(dsList));
 		System.out.println(gson.toJson(list));
+		System.out.println(gson.toJson(dashboardDTO));
 //		}
 	}
 }
