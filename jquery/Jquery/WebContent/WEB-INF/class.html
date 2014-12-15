@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style type="text/css">
+/*Menu number 1*/
+.demomenu {
+	width: 220px;
+	padding: 0 0 0 0;
+	margin-bottom: 1em;
+	font-size: 11px;
+	font-weight: normal;
+	font-family: Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+	background-color: #C43209;
+	color: #333;
+}
+
+.linkclass {
+	display: block;
+	padding: 3px 0px 3px 0.5em;
+	border-left: 5px solid #8AA1B6;
+	border-right: 5px solid #8AA1B6;
+	background-color: #6898d0;
+	color: #fff;
+	text-decoration: none;
+	width: auto;
+}
+
+.exPgreenclass {
+	width: 220px;
+	padding: 0 0 0 0;
+	font-size: 11px;
+	font-weight: normal;
+	font-family: Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+	background-color: #ffffff;
+	color: green;
+}
+
+.exPredclass {
+	width: 220px;
+	padding: 0 0 0 0;
+	font-size: 11px;
+	font-weight: normal;
+	font-family: Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+	background-color: #ffffff;
+	color: red;
+}
+
+.exPorangeclass {
+	width: 220px;
+	padding: 0 0 0 0;
+	font-size: 11px;
+	font-weight: normal;
+	font-family: Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+	background-color: #ffffff;
+	color: orange;
+}
+</style>
+
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript"
+	src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" language="javascript">
+	$(document).ready(function() {
+		$(".exPredclass").hide();
+		$(".exPorangeclass").hide();
+
+		$("#link1").click(function() {
+			$(".exPredclass").hide();
+			$(".exPorangeclass").hide();
+			$(".exPgreenclass").show();
+		});
+
+		$("#link2").click(function() {
+			$(".exPredclass").show();
+			$(".exPorangeclass").hide();
+			$(".exPgreenclass").hide();
+
+		});
+
+		$("#link3").click(function() {
+			$(".exPredclass").hide();
+			$(".exPorangeclass").show();
+			$(".exPgreenclass").hide();
+
+		});
+
+	});
+</script>
+
+</head>
+<body>
+	<div class="demomenu">
+		<a class="linkclass" id="link1" title="Green Text" href="#">Green
+			Text</a> <a class="linkclass" id="link2" title="Red Text" href="#">Red
+			Text</a> <a class="linkclass" id="link3" title="Orange Text" href="#">Orange
+			Text</a>
+
+	</div>
+	<p class="exPgreenclass">Testing text Testing text Testing text
+		Testing text Testing text Testing text Testing text Testing text
+		Testing text</p>
+	<p class="exPredclass">Testing text Testing text Testing text
+		Testing text Testing text Testing text Testing text Testing text
+		Testing text</p>
+	<p class="exPorangeclass">Testing text Testing text Testing text
+		Testing text Testing text Testing text Testing text Testing text
+		Testing text</p>
+</body>
+</html>

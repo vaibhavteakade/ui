@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+<title>Examples of using jQuery Alerts</title>
+<script src="lib/jquery.js" type="text/javascript"></script>
+<script src="lib/jquery.ui.draggable.js" type="text/javascript"></script>
+
+<script src="lib/jquery.alerts.js" type="text/javascript"></script>
+<link href="lib/jquery.alerts.css" rel="stylesheet" type="text/css"
+	media="screen" />
+
+<!-- Example script -->
+<script type="text/javascript">
+	$(document)
+			.ready(
+					function() {
+						$("#basic_button")
+								.click(
+										function() {
+											jAlert(
+													'Example of a basic alert box in jquery',
+													'jquery basic alert box');
+										});
+
+						$("#confirm_box").click(
+								function() {
+									jConfirm('Please confirm this?',
+											'Confirmation Dialog', function(r) {
+												jAlert('Click Result: ' + r,
+														'Visitor Response');
+											});
+								});
+
+						$("#prompt_alert").click(
+								function() {
+									jPrompt('Your Name:', 'Type name here',
+											'What is your name?', function(r) {
+												if (r)
+													alert('You name is: ' + r);
+											});
+								});
+
+						$("#alert_html")
+								.click(
+										function() {
+											jAlert('HTML attributes , such as <strong>bold</strong>, <em>italics</em>, and <u>underline</u>! <a href="http://www.google.com">your site</a>');
+										});
+					});
+</script>
+</head>
+<body>
+	<p>
+		<input id="basic_button" type="button" value="Show Basic Alert" />
+	</p>
+	<p>
+		<input id="confirm_box" type="button"
+			value="Show jquery confirm alert" />
+	</p>
+	<p>
+		<input id="prompt_alert" type="button" value="Prompt Alert" />
+	</p>
+	<p>
+		<input id="alert_html" type="button" value="Show HTML included Alert" />
+	</p>
+
+</body>
+</html>

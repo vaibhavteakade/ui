@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jquery Application</title>
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+ 
+   <script type="text/javascript" language="javascript">
+ 
+   $(document).ready(function() {
+ 
+     $("#showtext").hide(); 
+ 
+     $("#hidetext").click(function () {
+ 
+     $("#text").hide();
+ 
+     $("#showtext").show();
+ 
+     $("#hidetext").hide();
+ 
+    });
+ 
+     $("#showtext").click(function () {
+ 
+     $("#text").show();
+ 
+     $("#showtext").hide();
+ 
+     $("#hidetext").show();
+ 
+    });       
+ 
+   });
+ 
+   </script>
+ 
+</head>
+ 
+<body>
+ 
+   <button id="hidetext">Hide Text</button>
+ 
+   <button id="showtext">Show Text</button>
+ 
+   <div id="text" style="background-color:yellow;">
+ 
+     This is Yellow line!!
+ 
+   </div>
+ 
+</body>
+ 
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<head>
+<title>jQuery Events</title>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" language="javascript">
+	$(document)
+			.ready(
+					function() {
+						$("#Clickme").click(function() {
+							alert("Paragraph with 'Clickme' id is clicked");
+						});
+						$("#mouseevent").mouseenter(function() {
+							$("#mouseevent").css("background-color", "red");
+
+						});
+						$("#mouseevent").mouseleave(function() {
+							$("#mouseevent").css("background-color", "green");
+
+						});
+
+						$("#keyboard")
+								.keypress(
+										function() {
+
+											alert("keypress event occured! The ASCII value of pressed key is: "
+													+ event.keyCode);
+
+										});
+						$("#submittest").submit(function() {
+
+							alert("Submit event occured");
+
+						});
+
+						$("#txtchange")
+								.change(
+										function() {
+											alert("change event occured with value: "
+													+ document
+															.getElementById("txtchange").value);
+
+										});
+
+						$("#sel_change")
+								.change(
+										function() {
+
+											alert("change event occured with value: "
+													+ document
+															.getElementById("sel_change").value);
+
+										});
+
+						$("#tc_logo").load(function() {
+
+							alert("TC logo loaded!");
+
+						});
+
+						$("#bindtest")
+								.bind(
+										"dblclick click",
+										function() {
+
+											alert("Bind method used for click and dblclick events.");
+
+										});
+
+					});
+</script>
+<style type="text/css">
+.stylespec {
+	background-color: #ffffff;
+	width: 400px;
+	height: 50px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.stylespec_1 {
+	background-color: #00ffff;
+	width: 400px;
+	height: 50px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#bindtest {
+	background-color: #00ffff;
+	width: 400px;
+	height: 50px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+<!-- table style -->
+
+.container{
+    display:table;
+    width:90%;
+    border-collapse: collapse;
+    }
+.heading{
+     font-weight: bold;
+     display:table-row;
+     background-color:#C91622;
+     text-align: center;
+     line-height: 25px;
+     font-size: 14px;
+     font-family:georgia;
+     color:#fff;
+    
+}
+.table-row{  
+     display:table-row;
+     width:100%;
+     text-align: center;
+}
+.col{
+display:table-cell;
+width:50%;
+border: 1px solid #CCC;
+}
+
+
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="heading">
+			<div class="col">click</div>
+			<div class="col">Example</div>
+		</div>
+
+		<div class="table-row">
+			<div class="col">Click</div>
+			<div class="col">
+				<p class="stylespec" id="Clickme">Clicking on this paragraph
+					will execute single click handler!</p>
+				<p class=" stylespec">Click on this paragraph will not execute
+					event handler.</p>
+			</div>
+		</div>
+
+		<div class="table-row">
+			<div class="col">2</div>
+			<div class="col">
+				<p class="stylespec_1" id="mouseevent">As mouse enters this
+					parapgraph background color will be changed!</p>
+			</div>
+		</div>
+
+
+		<div class="table-row">
+			<div class="col">mouseenter</div>
+			<div class="col">WordPress</div>
+		</div>
+
+
+
+		<div class="table-row">
+			<div class="col">keypress</div>
+			<div class="col">
+				<p>
+					Enter keyboard keys: <input type="text" id="keyboard">
+				</p>
+			</div>
+		</div>
+
+
+
+		<div class="table-row">
+			<div class="col">submit</div>
+			<div class="col">
+				<form id="submittest" action="jquery-demo.php?ex=16.0_1">
+					First name: <input type="text" name="FName"><br> Last
+					name: <input type="text" name="LName"><br> <input
+						type="submit" value="submit now">
+
+				</form>
+			</div>
+		</div>
+
+
+
+		<div class="table-row">
+			<div class="col">Change</div>
+			<div class="col">
+				<p>Enter some text in first field then either press Tab key or
+					click somewhere else on page!</p>
+				<form id="changeform">
+					Enter text: <input id="txtchange" value="" type="text"> <br />
+					text field 2: <input id="txtchange2" type="text"> <br />
+				</form>
+			</div>
+		</div>
+
+
+
+		<div class="table-row">
+			<div class="col">sel_change</div>
+			<div class="col">
+				<p>Select a menu item to see change event!</p>
+
+				<form id="changeform">
+
+					select a value from dropdown: <select id="sel_change">
+
+						<option value="Jan">Jan</option>
+
+						<option value="Feb">Feb</option>
+
+						<option value="March">Mar</option>
+
+						<option value="April">Apr</option>
+
+					</select>
+				</form>
+			</div>
+		</div>
+
+		<div class="table-row">
+			<div class="col">2</div>
+			<div class="col">WordPress</div>
+		</div>
+
+		<div class="table-row">
+			<div class="col">load</div>
+			<div class="col">
+				<img id="tc_logo"
+					src="http://www.tutorialscollection.com/wp-content/themes/MagazinePro/images/logo.png"></img>
+			</div>
+		</div>
+
+		<div class="table-row">
+			<div class="col">bind</div>
+			<div class="col">
+				<div id="bindtest">Either single click or take mouse away from
+					div!</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
