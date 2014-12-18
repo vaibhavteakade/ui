@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>JS_Radio_Example</title>
+	<script language="javascript">
+
+		function checkBoxSelected()
+		{
+			var len = document.frm.fname.length;
+			var selectedValue = '';
+			
+			for( var i = 0; i < len ; i++ )
+			{
+				if( document.frm.fname[i].checked )
+				{
+					selectedValue += document.frm.fname[i].nextSibling.data + ", ";
+				}
+			}
+			
+			if( selectedValue.length > 1 )
+			{
+				selectedValue = selectedValue.substr(0, selectedValue.length - 2);
+			}
+			
+			document.getElementById("showSelectedName").innerHTML = "<p>The Selected name is = "+selectedValue+"</p>";
+		}
+
+	</script>
+</head>
+<body>
+	<form name="frm">
+		<input type="checkbox" name="fname" value="m" onclick="checkBoxSelected()">Mayur</input>
+		<input type="checkbox" name="fname" value="v" onclick="checkBoxSelected()">Vaibhav</input>
+		<input type="checkbox" name="fname" value="a" onclick="checkBoxSelected()">Ajay</input>
+		<input type="checkbox" name="fname" value="s" onclick="checkBoxSelected()">Sanket</input>
+	</form>
+	
+	<div id="showSelectedName" >
+	</div>
+</body>
+
+</html>

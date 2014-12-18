@@ -1,0 +1,9 @@
+#js_frm {
+    border: 2px solid blue;
+    width: 25%;
+    padding: 10px;
+}
+#submitButton {
+   color: blue;
+   background: none repeat scroll 7px 11px #dddded;
+}

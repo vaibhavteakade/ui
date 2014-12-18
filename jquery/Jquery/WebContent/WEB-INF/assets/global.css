@@ -1,0 +1,72 @@
+#hearderContainer {
+	float: left;
+	width: 95%;
+	padding: 0px;
+	background: #fff;
+	margin: 1px auto;
+}
+
+.content {
+	float: left;
+	width: 20%;
+	border: none;
+}
+
+.rightcontent {
+	float: right;
+	width: 25%;
+	height: 90%;
+	border: none text-align:       right;
+}
+
+.hspacer {
+	width: 10%;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.table-row {
+	display: table-row;
+	text-align: left;
+}
+
+.col {
+	display: table-cell;
+	width: 150px;
+}
+
+.box {
+	width: 20%;
+	float:left;
+	padding: 25px;
+	font-family: sans-serif;
+}
+
+.box_heading {
+	width: 100%; color : white;
+	font-weight: normal;
+	font-style: normal;
+	vertical-align: middle;
+	border: 1px solid #000000;
+	border-bottom:none;
+	text-align: center;
+	font-size: xx-large;
+	padding: 10px;
+	background-color: #428bca;
+}
+
+.box_content {
+	float: left; height : 20%;
+	width: 100%;
+	color: black;
+	border: 1px solid #000000;
+	font-weight: bold;
+	font-style: normal;
+	font-size: x-large;
+	padding: 5px 10px 0px 10px;
+	vertical-align: middle;
+	text-align: center;
+}

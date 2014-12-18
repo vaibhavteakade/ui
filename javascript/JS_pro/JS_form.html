@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Form</title>
+		<script type="text/javascript" src="//E:/JS/JS_pro/JS_form.js" ></script>
+		<link type="text/css" href="//E:/JS/JS_pro/JS_form.css" rel="stylesheet"></link>
+	</head>
+	<body onLoad="onBodyLoad()">
+		<form id="js_frm" name="frm" method="post">
+			<span id="textInputError" style="font-weight:bold">Please fill the following details:</span>
+			
+			<p>
+				Name : <input id="textInput" type="textinput" placeholder="Enter your Name"/>
+				<span id="nameError" style="color:red" >Please Enter Atleast a word!</span>
+			</p>
+			
+			<p>
+				Gender : 
+				<input type="radio" name="gender">Male</input>
+				<input type="radio" name="gender">Female</input>
+				<span id="genderError" style="color:red">Please Select your gender!</span>
+			</p>
+			
+			<p>
+				Select Your City : 
+				<select name="citySelect">
+					<option name="city" selected="selected" disabled="disabled">- CITY -</option>
+					<option name="city">Nagpur</option>
+					<option name="city">Pune</option>
+					<option name="city">Mumbai</option>
+				</select>
+				<span id="cityError" style="color:red">Please Select your city!</span>
+				
+			</p>
+			
+			<p>
+				<label for="cb1">Yes,</label>
+				<input type="checkbox" id="cb1"></input>
+				<label>I like to share my information with all!</label>
+				<span id="tandmError" style="color:red">You really need to select it!</span>
+			</p>
+			<br/>
+			<br/>
+			<input id="submitButton" type="button" onclick="onValidate()" value="Submit"></input>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet"
+	href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css" />
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script
+	src="http://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#example').dataTable();
+	});
+</script>
+</head>
+<body>
+	<table id="example" class="display" cellspacing="0" width="100%">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Size</th>
+				<th>Status</th>
+				<th>Used</th>
+				<th>Free</th>
+				<th>VM</th>
+			</tr>
+		</thead>
+
+		<tfoot>
+			<tr>
+				<th>Name</th>
+				<th>Size</th>
+				<th>Status</th>
+				<th>Used</th>
+				<th>Free</th>
+				<th>VM</th>
+			</tr>
+		</tfoot>
+
+		<tbody>
+			<tr>
+				<td>DS_1</td>
+				<td>100 GB</td>
+				<td>Online</td>
+				<td>60 GB</td>
+				<td>40 GB</td>
+				<td>15</td>
+			</tr>
+
+			<tr>
+				<td>DS_2</td>
+				<td>50 GB</td>
+				<td>Online</td>
+				<td>35 GB</td>
+				<td>15 GB</td>
+				<td>2</td>
+			</tr>
+
+			<tr>
+				<td>DS_3</td>
+				<td>150 GB</td>
+				<td>Online</td>
+				<td>60 GB</td>
+				<td>90 GB</td>
+				<td>28</td>
+			</tr>
+
+			<tr>
+				<td>DS_4</td>
+				<td>120 GB</td>
+				<td>Online</td>
+				<td>55 GB</td>
+				<td>65 GB</td>
+				<td>5</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

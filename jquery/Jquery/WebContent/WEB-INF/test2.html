@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="assets/global.css" />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+<script type="text/javascript" src="test2.js"></script>
+
+</head>
+<body>
+	<div>
+		<div id="hearderContainer">
+			<div class="box">
+				<div class="box_heading" style="background-color: red">CPU</div>
+				<div class="box_content">
+					<div style="float: left;">250</div>
+					<div style="float: right;">
+						<img alt="Know more" src="assets/images/info32x.png" width="16"
+							height="16" id="infoCPU" />
+					</div>
+				</div>
+			</div>
+
+			<div style="width: 0px; float: left;"></div>
+
+			<div class="box">
+				<div class="box_heading" style="background-color: green">Hosts</div>
+				<div class="box_content">
+					<div style="float: left;">250</div>
+					<div style="float: right;">
+						<img alt="Know more" src="assets/images/info32x.png" width="16"
+							id="infoHost" height="16" />
+					</div>
+				</div>
+			</div>
+
+			<div style="width: 0px; float: left;"></div>
+
+			<div class="box">
+				<div class="box_heading" style="background-color: black;">VM</div>
+				<div class="box_content">
+					<div style="float: left;">250</div>
+					<div style="float: right;">
+						<img alt="Know more" src="assets/images/info32x.png" width="16"
+							id="infoVM" height="16" />
+					</div>
+				</div>
+			</div>
+
+			<div style="width: 0px; float: left;"></div>
+
+			<div class="box">
+				<div class="box_heading">Datastores</div>
+				<div class="box_content">
+					<div style="float: left;">250</div>
+					<div style="float: right;">
+
+						<img alt="Know more" src="assets/images/info32x.png" width="16"
+							id="infoDS" height="16" title="More info about datastore"><img>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="hearderContainer" style="padding: 0px 0px 0px 20px;">
+			<div class="panel panel-primary" style="width: 100%; height: 50%">
+				<div class="panel-heading">Read/Write</div>
+
+				<div id="chart_div" style="text-align: left; padding: 0px auto"></div>
+
+			</div>
+		</div>
+
+		<div id="hearderContainer" style="padding: 0px 0px 0px 20px;">
+			<div class="panel panel-success" style="width: 32%; float: left;">
+				<div class="panel-heading">Recent Tasks</div>
+
+
+			</div>
+
+			<div style="width: 2%; float: left;">&nbsp</div>
+
+			<div class="panel panel-warning" style="width: 32%; float: left;">
+				<div class="panel-heading">Alarms</div>
+
+			</div>
+			<div style="width: 2%; float: left;">&nbsp</div>
+			<div class="panel panel-danger" style="width: 32%; float: left;">
+				<div class="panel-heading">Tasks</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	<!-- modal for info detail -->
+	<div class="modal" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="container"></div>
+				<div class="row"></div>
+			</div>
+		</div>
+		<div class="modal-dialog">
+			<div class="modal-content"></div>
+		</div>
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">×</button>
+					<h4 class="modal-title">Modal title</h4>
+
+				</div>
+				<div class="modal-body" style="height: 400px">
+					<iframe src="datastores.html" width="100%" height="90%"></iframe>
+				</div>
+				<div class="modal-footer">
+					<a href="#" data-dismiss="modal" class="btn btn-default">Close</a>
+					<a href="#" class="btn btn-primary">Save changes</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

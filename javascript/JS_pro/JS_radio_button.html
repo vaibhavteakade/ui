@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>JS_Radio_Example</title>
+<script language="javascript">
+
+		function checkRadioSelected()
+		{
+			var len = document.radioBlock.fname.length;
+			var selectedValue = '';
+			
+			for( var i = 0; i < len ; i++ )
+			{
+				if( document.radioBlock.fname[i].checked )
+				{
+					selectedValue = document.radioBlock.fname[i].nextSibling.data;
+					break;
+				}
+				selectedValue = "Nothing Has been selected yet";
+			}
+			
+			document.getElementById("showSelectedName").innerHTML = "<p>The Selected is = "+selectedValue+"</p>";
+			
+		}
+
+</script>
+</head>
+<body><form name="radioBlock">
+	<input type="radio" name="fname" value="m" onclick="checkRadioSelected()">Mayur</input>
+	<input type="radio" name="fname" value="v" onclick="checkRadioSelected()">Vaibhav</input>
+	<input type="radio" name="fname" value="a" onclick="checkRadioSelected()">Ajay</input>
+	<input type="radio" name="fname" value="s" onclick="checkRadioSelected()">Sanket</input>
+</form>
+
+	
+	<div id="showSelectedName" >
+	</div>
+	
+</body>
+
+</html>

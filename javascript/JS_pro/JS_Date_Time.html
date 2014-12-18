@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<script Language="Javascript">
+  
+    var elementRemover = function()
+	{	
+	  var child = document.getElementById("dateButton");
+	  child.parentNode.removeChild(child);
+	  
+	  child = document.getElementById("heading");
+	  child.parentNode.removeChild(child);
+	}
+  
+    function onClickButton(){
+      elementRemover();
+	    
+      var date = new Date();
+      var material;
+      
+      material = "<h3>Normal Date:</h3>"
+      material += "<p>"+date+"</p><br/>";
+      
+      material += "<h3>Manual Date:</h3>"
+      date = new Date(1989, 04, 30);
+      material += "<p>"+date+"</p><br/>";
+      
+      var nestedMaterial = "<nav><span align='center'><font size='4'><b>Get year</b></font>"+date.getFullYear()+"</span>";
+	  nestedMaterial += "<span><font size='4'><b>Get Month</b></font>" + getMonth(date.getMonth())+"</span>";
+	  nestedMaterial += "<span><font size='4'><b>Get Day</b></font>" + getWeakOfTheDay(date.getDay())+"</span>";
+	
+      nestedMaterial += "</nav>"
+	  material += nestedMaterial;
+      
+      document.getElementById("showDate").innerHTML = material;
+    }
+	
+	function getMonth(value)
+	{
+	  var monthArr = new Array("Jan", "Feb", "Mar", "Apr", "May", "June", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
+	  return monthArr[value];
+	}
+	
+	function getWeakOfTheDay(value)
+	{
+	  var weekDayArr = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+	  return weekDayArr[value];
+	}
+  
+    
+</script>
+</head>
+<body id="body1" align="center">
+  <h3 id="heading">Click on button</h3>
+  <input type="button" value="Show Dates!" id="dateButton" onclick="onClickButton()"/>
+  <div id="showDate" >
+  </div>
+</body>
+</html>

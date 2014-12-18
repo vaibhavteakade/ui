@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>JS_Radio_Example</title>
+	<script language="javascript">
+
+		function dropdownSelected()
+		{
+			var len = document.frm.dropdown.length;
+			var selectedValue = '';
+			
+			for( var i = 0; i < len ; i++ )
+			{
+				if( document.frm.dropdown[i].selected )
+				{
+					selectedValue = document.frm.dropdown[i].innerHTML;
+					break;
+				}
+				selectedValue = "Nothing Has been selected yet";
+			}
+			
+			document.getElementById("showSelectedName").innerHTML = "<p>The Selected name is = "+selectedValue+"</p>";
+		}
+
+	</script>
+</head>
+<body>
+	<form name="frm">
+		<select name="dropdown" onchange="dropdownSelected()" >
+			<option value="default" selected="selected" disabled="disabled">- Select Name -</option>
+			<option value="m">Mayur</option>
+			<option value="v">Vaibhav</option>
+			<option value="a">Ajay</option>
+			<option value="s">Sanket</option>
+		</select>
+	</form>
+	
+	<div id="showSelectedName" >
+	</div>
+</body>
+
+</html>
