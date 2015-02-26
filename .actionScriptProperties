@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<actionScriptProperties mainApplicationPath="UI.mxml" version="6">
+   <compiler
+         additionalCompilerArguments="-load-config+=${VSPHERE_CLIENT_SDK}/resources/flex-config.xml
+            -locale  -resource-bundle-list=../bundles.properties -source-path+=locale/{locale}"
+         autoRSLOrdering="true"
+         copyDependentFiles="true"
+         outputFolderPath="war/target/UI-war"
+         sourceFolderPath="swf/src/main/flex"
+         strict="true"
+         warn="true">
+      <compilerSourcePath>
+         <compilerSourcePathEntry kind="1" linkType="1" path="war/src/main/webapp"/>
+      </compilerSourcePath>
+      <libraryPath defaultLinkType="1">
+         <libraryPathEntry kind="4" path="">
+            <modifiedEntries>
+             <libraryPathEntry kind="3" linkType="2" path="${PROJECT_FRAMEWORKS}/libs/advancedgrids.swc" useDefaultLinkType="false"/>
+             <libraryPathEntry kind="3" linkType="2" path="${PROJECT_FRAMEWORKS}/libs/charts.swc" useDefaultLinkType="false"/>
+             <libraryPathEntry kind="3" linkType="2" path="${PROJECT_FRAMEWORKS}/libs/framework.swc" useDefaultLinkType="false"/>
+             <libraryPathEntry kind="3" linkType="2" path="${PROJECT_FRAMEWORKS}/libs/osmf.swc" useDefaultLinkType="false"/>
+             <libraryPathEntry kind="3" linkType="2" path="${PROJECT_FRAMEWORKS}/libs/rpc.swc" useDefaultLinkType="false"/>
+             <libraryPathEntry kind="3" linkType="2" path="${PROJECT_FRAMEWORKS}/libs/spark.swc" useDefaultLinkType="false"/>
+             <libraryPathEntry kind="3" linkType="2" path="${PROJECT_FRAMEWORKS}/libs/sparkskins.swc" useDefaultLinkType="false"/>
+             <libraryPathEntry kind="3" linkType="2" path="${PROJECT_FRAMEWORKS}/libs/spark_dmv.swc" useDefaultLinkType="false"/>
+             <libraryPathEntry kind="3" linkType="2" path="${PROJECT_FRAMEWORKS}/libs/textLayout.swc" useDefaultLinkType="false"/>
+             <libraryPathEntry kind="3" linkType="2" path="${PROJECT_FRAMEWORKS}/libs/mx/mx.swc" useDefaultLinkType="false"/>
+            </modifiedEntries>
+         </libraryPathEntry>
+         <libraryPathEntry kind="3" linkType="2" path="${VSPHERE_CLIENT_SDK}/libs/vsphere-client-lib.swc" useDefaultLinkType="false"/>
+      </libraryPath>
+      <sourceAttachmentPath/>
+   </compiler>
+   <applications>
+      <application path="UI.mxml"/>
+   </applications>
+   <modules/>
+   <buildCSSFiles/>
+</actionScriptProperties>

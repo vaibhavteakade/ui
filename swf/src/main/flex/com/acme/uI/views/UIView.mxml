@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 VMware, Inc. All rights reserved. VMware Confidential  -->
+
+<mx:Box xmlns:mx="http://www.adobe.com/2006/mxml">
+
+   <mx:Metadata>
+      [DefaultMediator("com.acme.uI.views.UIMediator")]
+   </mx:Metadata>
+
+   <mx:Script>
+      <![CDATA[
+       import mx.resources.ResourceManager;
+
+         // Utilities to load strings and images from resource file 
+
+         private function getString(key:String) : String {
+            return ResourceManager.getInstance().getString('com_acme_uI', key);
+         }
+
+         private function getImage(key:String) : Class {
+            return ResourceManager.getInstance().getClass('com_acme_uI', key);
+         }
+      ]]>
+   </mx:Script>
+
+   <mx:Label text="{getString('label.text')}" styleName="labelText"/>
+   <mx:Button id="showSelected"
+              icon="{getImage('info.icon')}"
+              label="{getString('button.showSelected')}"/>
+
+</mx:Box>

@@ -1,0 +1,15 @@
+{
+  "memory_total": 115,
+  "memory_free": 60,
+  "memory_used": 55,
+  "handlers": 159753,
+  "threads": 587456,
+  "processes": 15825,
+  "up_time": "Dec 1, 2014 2:53:22 PM",
+  "cpu": {
+    "usage": 74,
+    "overHead": 58
+  },
+  "productVersion": "1.1.5",
+  "serialNumber": "XMTR-58958-CTX"
+}

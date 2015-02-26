@@ -1,0 +1,100 @@
+<project name="UI" default="build-war">
+   <description>
+       Ant build script example for the Flex UI plug-in 'UI'.
+       The output is a bundle in target/UI-war.war that can be
+       copied in the "plugins" folder of the plugin-package.
+       -----------------------------------------------------------------------
+       NOTE: you don't need to use this script during development with Eclipse
+       except to compile resources, see the compile-resources target below.
+       -----------------------------------------------------------------------
+   </description>
+
+   <!-- SDK home folders should be set in environment variables -->
+   <property environment="env"/>
+   <property name="FLEX_HOME" value="${env.FLEX_HOME}"/>
+   <property name="VSPHERE_SDK_HOME" value="${env.VSPHERE_SDK_HOME}"/>
+
+   <!-- name of the war output directory and bundle file -->
+   <property name="WAR_NAME" value="UI-war"/>
+
+   <property name="BUILD_DIR" value="${basedir}/war/target"/>
+   <property name="WAR_DIR" value="${BUILD_DIR}/${WAR_NAME}"/>
+   <property name="SRC_DIR" value="${basedir}/swf/src/main/flex"/>
+   <property name="WEBAPP_DIR" value="${basedir}/war/src/main/webapp"/>
+
+   <!-- Import the definition of mxmlc-macro -->
+   <import file="${VSPHERE_SDK_HOME}/resources/flex-macros.xml"/>
+
+   <!-- clean the generated build files -->
+   <target name="clean">
+      <delete dir="${basedir}/swf/target"/>
+      <delete dir="${BUILD_DIR}" />
+   </target>
+
+   <!-- Compile the plugin source into .swf file.
+        ECLIPSE NOTE: building the Flex project in Eclipse does the same thing.
+   -->
+   <target name="compile-flex">
+      <mxmlc-macro file="'${SRC_DIR}'/UI.mxml">
+         <arg line="-source-path+='${SRC_DIR}'"/>
+         <arg line="-source-path+='${SRC_DIR}'/locale/{locale}"/>
+         <arg line="-resource-bundle-list='${BUILD_DIR}'/bundles.properties" />
+         <arg line="-output='${WAR_DIR}'/UI.swf"/>
+      </mxmlc-macro>
+   </target>
+
+   <!-- Compile separate bundle resource files UI-{locale}.swf
+        This file name must match the name declared in plugin.xml <resource> tag.
+        ECLIPSE NOTE: building the Flex project in Eclipse does NOT compile resources
+        automatically, you can run this compile-resources target from Eclipse.
+   -->
+   <target name="compile-resources">
+      <property file="${BUILD_DIR}/bundles.properties"/>
+
+      <!-- default US version -->
+      <mxmlc-macro>
+         <arg line="-locale=en_US" />
+         <arg line="-source-path+='${SRC_DIR}'/locale/{locale}"/>
+         <arg line="-output='${basedir}'/swf/target/locales/UI-en_US.swf"/>
+         <arg line="-include-resource-bundles ${bundles}" />
+      </mxmlc-macro>
+
+      <!-- Generate resource bundles for the other required locales
+           with a copy of the US version for now -->
+
+      <copy file="${basedir}/swf/target/locales/UI-en_US.swf"
+          tofile="${basedir}/swf/target/locales/UI-de_DE.swf"/>
+      <copy file="${basedir}/swf/target/locales/UI-en_US.swf"
+          tofile="${basedir}/swf/target/locales/UI-fr_FR.swf"/>
+      <copy file="${basedir}/swf/target/locales/UI-en_US.swf"
+          tofile="${basedir}/swf/target/locales/UI-ja_JP.swf"/>
+      <copy file="${basedir}/swf/target/locales/UI-en_US.swf"
+          tofile="${basedir}/swf/target/locales/UI-ko_KR.swf"/>
+      <copy file="${basedir}/swf/target/locales/UI-en_US.swf"
+          tofile="${basedir}/swf/target/locales/UI-zh_CN.swf"/>
+
+      <!-- Copy all bundle resources to WAR_DIR -->
+
+      <copy todir="${WAR_DIR}/locales" failonerror="false">
+         <fileset dir="${basedir}/swf/target/locales"/>
+      </copy>
+   </target>
+
+   <!-- Build the war bundle -->
+   <target name="build-war" depends="clean, compile-flex, compile-resources">
+      <!-- Copy assets and webapp folders if any -->
+      <copy todir="${WAR_DIR}/assets" failonerror="false">
+         <fileset dir="${basedir}/swf/src/main/flex/assets"/>
+      </copy>
+      <copy todir="${WAR_DIR}">
+         <fileset dir="${WEBAPP_DIR}"/>
+      </copy>
+
+      <!-- Create the war bundle -->
+      <jar  destfile="${BUILD_DIR}/${WAR_NAME}.war"
+            manifest="${WEBAPP_DIR}/META-INF/MANIFEST.MF"
+            basedir="${WAR_DIR}"/>
+
+   </target>
+</project>
+
