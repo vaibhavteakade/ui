@@ -1,0 +1,922 @@
+[
+  {
+    "name": "ds_-8283ec800a19",
+    "capacity": 392,
+    "used": 239,
+    "free": 153,
+    "vmCount": 5,
+    "type": "ssd",
+    "id": "ds_eccf42c5-ff8c-4f95-8301-8283ec800a19",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-be1421ddcb79",
+    "capacity": 232,
+    "used": 14,
+    "free": 218,
+    "vmCount": 29,
+    "type": "ssd",
+    "id": "ds_cf7bc571-e302-4e9e-bae6-be1421ddcb79",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-fea5783b611b",
+    "capacity": 383,
+    "used": 144,
+    "free": 239,
+    "vmCount": 8,
+    "type": "ssd",
+    "id": "ds_54539af4-0d6f-46f1-8b7c-fea5783b611b",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-fe929681bf56",
+    "capacity": 149,
+    "used": 21,
+    "free": 128,
+    "vmCount": 25,
+    "type": "ssd",
+    "id": "ds_4dfa1303-04ec-4c41-bb57-fe929681bf56",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-751550c363dc",
+    "capacity": 333,
+    "used": 209,
+    "free": 124,
+    "vmCount": 11,
+    "type": "ssd",
+    "id": "ds_6a1451c3-fb43-4585-9d8a-751550c363dc",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-929250c13f8a",
+    "capacity": 145,
+    "used": -8,
+    "free": 153,
+    "vmCount": 27,
+    "type": "ssd",
+    "id": "ds_5625a3b3-46dd-471d-b735-929250c13f8a",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-5d221eb5a9be",
+    "capacity": 556,
+    "used": 252,
+    "free": 304,
+    "vmCount": 7,
+    "type": "ssd",
+    "id": "ds_35fc44b3-19b0-4783-b960-5d221eb5a9be",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-c8fe6bc39005",
+    "capacity": 442,
+    "used": 142,
+    "free": 300,
+    "vmCount": 25,
+    "type": "ssd",
+    "id": "ds_5a670bde-17af-44ee-8bf9-c8fe6bc39005",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-ee2be625627a",
+    "capacity": 315,
+    "used": -1,
+    "free": 316,
+    "vmCount": 13,
+    "type": "ssd",
+    "id": "ds_7d79c862-d1dd-4f29-8bdf-ee2be625627a",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-065738acd6e4",
+    "capacity": 425,
+    "used": 7,
+    "free": 418,
+    "vmCount": 21,
+    "type": "ssd",
+    "id": "ds_ccd8f05a-45ba-46af-ab9d-065738acd6e4",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-901ce1e5b13b",
+    "capacity": 180,
+    "used": 37,
+    "free": 143,
+    "vmCount": 23,
+    "type": "ssd",
+    "id": "ds_9a4b08f4-8dc2-4acb-b6cd-901ce1e5b13b",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-80525f0e8f4a",
+    "capacity": 245,
+    "used": 141,
+    "free": 104,
+    "vmCount": 29,
+    "type": "ssd",
+    "id": "ds_ea8b65b5-2220-479a-a502-80525f0e8f4a",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-b56a834d0b6c",
+    "capacity": 181,
+    "used": 58,
+    "free": 123,
+    "vmCount": 6,
+    "type": "ssd",
+    "id": "ds_477ba5e5-d3cc-4f91-b97c-b56a834d0b6c",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-c051de100881",
+    "capacity": 331,
+    "used": 167,
+    "free": 164,
+    "vmCount": 7,
+    "type": "ssd",
+    "id": "ds_3cde2f20-3fab-489a-bc92-c051de100881",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-bbe5b5a578c0",
+    "capacity": 385,
+    "used": 324,
+    "free": 61,
+    "vmCount": 18,
+    "type": "ssd",
+    "id": "ds_a307b0a7-2323-48db-8304-bbe5b5a578c0",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-f3ab2600287f",
+    "capacity": 462,
+    "used": 219,
+    "free": 243,
+    "vmCount": 24,
+    "type": "ssd",
+    "id": "ds_64bdca90-4248-4609-81bb-f3ab2600287f",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-00e10e524718",
+    "capacity": 560,
+    "used": 13,
+    "free": 547,
+    "vmCount": 14,
+    "type": "ssd",
+    "id": "ds_3d2a7f0b-47a5-41ea-b995-00e10e524718",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-d2ef63f2e036",
+    "capacity": 594,
+    "used": 561,
+    "free": 33,
+    "vmCount": 20,
+    "type": "ssd",
+    "id": "ds_329c50fa-8d04-4560-aed9-d2ef63f2e036",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-dce8f9b2ef73",
+    "capacity": 292,
+    "used": 240,
+    "free": 52,
+    "vmCount": 8,
+    "type": "ssd",
+    "id": "ds_786bb7dc-e218-4be6-aa3d-dce8f9b2ef73",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-2dec0b6e772b",
+    "capacity": 284,
+    "used": 146,
+    "free": 138,
+    "vmCount": 17,
+    "type": "ssd",
+    "id": "ds_88b86638-7e36-4f52-98c6-2dec0b6e772b",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-3e5d6600965c",
+    "capacity": 275,
+    "used": 26,
+    "free": 249,
+    "vmCount": 18,
+    "type": "ssd",
+    "id": "ds_925d06d5-6847-4c43-851c-3e5d6600965c",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-15fd71d03d111",
+    "capacity": 418,
+    "used": 273,
+    "free": 145,
+    "vmCount": 28,
+    "type": "ssd",
+    "id": "ds_c89604b7-e8ae-4798-8d32-15fd71d03df111",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-a00975842a8d",
+    "capacity": 481,
+    "used": 32,
+    "free": 449,
+    "vmCount": 8,
+    "type": "ssd",
+    "id": "ds_abcece76-7b12-446d-9e89-a00975842a8d",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-3304bce4c80b",
+    "capacity": 278,
+    "used": 207,
+    "free": 71,
+    "vmCount": 20,
+    "type": "ssd",
+    "id": "ds_d1e96741-f104-4ed3-bc24-3304bce4c80b",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-a93be5b73043",
+    "capacity": 493,
+    "used": 418,
+    "free": 75,
+    "vmCount": 6,
+    "type": "ssd",
+    "id": "ds_d644990a-9d3f-4a45-9e54-a93be5b73043",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-6b71f31ef6df",
+    "capacity": 397,
+    "used": 312,
+    "free": 85,
+    "vmCount": 6,
+    "type": "ssd",
+    "id": "ds_6303f30e-e66b-4512-934a-6b71f31ef6df",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-2529283ed43b",
+    "capacity": 220,
+    "used": 166,
+    "free": 54,
+    "vmCount": 17,
+    "type": "ssd",
+    "id": "ds_1587c9eb-5eae-4ab2-9348-2529283ed43b",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-f15ed5e2daa2",
+    "capacity": 147,
+    "used": 37,
+    "free": 110,
+    "vmCount": 10,
+    "type": "ssd",
+    "id": "ds_06ce3e70-9008-49ac-a3c4-f15ed5e2daa2",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-20efac0d5ff5",
+    "capacity": 255,
+    "used": 198,
+    "free": 57,
+    "vmCount": 5,
+    "type": "ssd",
+    "id": "ds_de69695f-96c8-45e3-897c-20efac0d5ff5",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-8499e2a28d27",
+    "capacity": 489,
+    "used": 336,
+    "free": 153,
+    "vmCount": 25,
+    "type": "ssd",
+    "id": "ds_2481727e-973d-4580-b822-8499e2a28d27",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-2e8fbb9363cc",
+    "capacity": 533,
+    "used": 381,
+    "free": 152,
+    "vmCount": 17,
+    "type": "ssd",
+    "id": "ds_94fb6065-6f3f-43d6-9aaf-2e8fbb9363cc",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-f66423cac9e0",
+    "capacity": 426,
+    "used": 359,
+    "free": 67,
+    "vmCount": 18,
+    "type": "ssd",
+    "id": "ds_b72ad43b-d26e-47bb-af42-f66423cac9e0",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-1355ec06115a",
+    "capacity": 440,
+    "used": 122,
+    "free": 318,
+    "vmCount": 9,
+    "type": "ssd",
+    "id": "ds_706c80ea-8b8f-4ba0-ac4d-1355ec06115a",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-4d5ca935849f",
+    "capacity": 304,
+    "used": 87,
+    "free": 217,
+    "vmCount": 28,
+    "type": "ssd",
+    "id": "ds_47ae0ccf-7792-4417-8454-4d5ca935849f",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-51357bc0ed83",
+    "capacity": 345,
+    "used": 319,
+    "free": 26,
+    "vmCount": 16,
+    "type": "ssd",
+    "id": "ds_b7ddeb26-aefd-4965-b2bb-51357bc0ed83",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-76eab3eec511",
+    "capacity": 453,
+    "used": 297,
+    "free": 156,
+    "vmCount": 15,
+    "type": "ssd",
+    "id": "ds_7aeebea5-820e-4502-81de-76eab3eec511",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-db227bcf8913",
+    "capacity": 333,
+    "used": -9,
+    "free": 342,
+    "vmCount": 22,
+    "type": "ssd",
+    "id": "ds_17374b27-23ae-4ff0-b14a-db227bcf8913",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-f71c1536f1aa",
+    "capacity": 500,
+    "used": 319,
+    "free": 181,
+    "vmCount": 8,
+    "type": "ssd",
+    "id": "ds_3afa6fff-952b-46ad-a4bd-f71c1536f1aa",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-b839f4ad4dd2",
+    "capacity": 167,
+    "used": 20,
+    "free": 147,
+    "vmCount": 14,
+    "type": "ssd",
+    "id": "ds_1728d608-6efc-4360-a10a-b839f4ad4dd2",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-0c7f12ee4a41",
+    "capacity": 581,
+    "used": 128,
+    "free": 453,
+    "vmCount": 21,
+    "type": "ssd",
+    "id": "ds_b47c9c97-dc0e-4f49-ba44-0c7f12ee4a41",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-35f651a4fdb7",
+    "capacity": 504,
+    "used": 82,
+    "free": 422,
+    "vmCount": 17,
+    "type": "ssd",
+    "id": "ds_62b8acf2-6b9f-4703-8b36-35f651a4fdb7",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-76c03446e2b5",
+    "capacity": 197,
+    "used": 121,
+    "free": 76,
+    "vmCount": 21,
+    "type": "ssd",
+    "id": "ds_1bc51e2c-634d-452c-801f-76c03446e2b5",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-db570d700261",
+    "capacity": 602,
+    "used": 148,
+    "free": 454,
+    "vmCount": 5,
+    "type": "ssd",
+    "id": "ds_9519bfe5-4fd8-4313-9436-db570d700261",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-4141aee94ea9",
+    "capacity": 419,
+    "used": 91,
+    "free": 328,
+    "vmCount": 21,
+    "type": "ssd",
+    "id": "ds_b7d88953-2c13-408b-a2a9-4141aee94ea9",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-74e92139190c",
+    "capacity": 434,
+    "used": 17,
+    "free": 417,
+    "vmCount": 5,
+    "type": "ssd",
+    "id": "ds_80296a93-0ca1-4342-b082-74e92139190c",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-8ec9b6359633",
+    "capacity": 239,
+    "used": 153,
+    "free": 86,
+    "vmCount": 5,
+    "type": "ssd",
+    "id": "ds_1f1c34f3-30e2-4fab-9a15-8ec9b6359633",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-31cf40f78dba",
+    "capacity": 299,
+    "used": 30,
+    "free": 269,
+    "vmCount": 7,
+    "type": "ssd",
+    "id": "ds_d829d844-fb4d-4c89-a106-31cf40f78dba",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-41599b0e16f4",
+    "capacity": 544,
+    "used": 418,
+    "free": 126,
+    "vmCount": 25,
+    "type": "ssd",
+    "id": "ds_393597db-4289-4075-96ad-41599b0e16f4",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-c76c8046736f",
+    "capacity": 368,
+    "used": 313,
+    "free": 55,
+    "vmCount": 15,
+    "type": "ssd",
+    "id": "ds_b11c9317-9fda-4457-8854-c76c8046736f",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-2fd58fca5e5f",
+    "capacity": 396,
+    "used": 41,
+    "free": 355,
+    "vmCount": 23,
+    "type": "ssd",
+    "id": "ds_ac7eb212-324a-49d4-94a4-2fd58fca5e5f",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-dce8ae92b06f",
+    "capacity": 437,
+    "used": 397,
+    "free": 40,
+    "vmCount": 28,
+    "type": "ssd",
+    "id": "ds_502b3481-0773-41c7-a398-dce8ae92b06f",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-0835fbee6ba5",
+    "capacity": 532,
+    "used": 421,
+    "free": 111,
+    "vmCount": 21,
+    "type": "ssd",
+    "id": "ds_7a34a653-c538-4428-9089-0835fbee6ba5",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-2e6a1f0fd59b",
+    "capacity": 568,
+    "used": 103,
+    "free": 465,
+    "vmCount": 12,
+    "type": "ssd",
+    "id": "ds_0b044987-cd6c-49b6-8728-2e6a1f0fd59b",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-7fd0b34cc4b0",
+    "capacity": 526,
+    "used": 435,
+    "free": 91,
+    "vmCount": 11,
+    "type": "ssd",
+    "id": "ds_bcb026db-b887-41d3-9bff-7fd0b34cc4b0",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-4a8e1f00ed9a",
+    "capacity": 567,
+    "used": 328,
+    "free": 239,
+    "vmCount": 29,
+    "type": "ssd",
+    "id": "ds_1f62508d-ca54-4264-97de-4a8e1f00ed9a",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-0eba581508ad",
+    "capacity": 417,
+    "used": 86,
+    "free": 331,
+    "vmCount": 26,
+    "type": "ssd",
+    "id": "ds_a4f4687b-cc8d-4794-ae0a-0eba581508ad",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-386c312dce97",
+    "capacity": 267,
+    "used": 155,
+    "free": 112,
+    "vmCount": 23,
+    "type": "ssd",
+    "id": "ds_81569e1f-d1af-4efe-9de6-386c312dce97",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-ba10769b9ef9",
+    "capacity": 321,
+    "used": 163,
+    "free": 158,
+    "vmCount": 27,
+    "type": "ssd",
+    "id": "ds_79e95244-f452-41d6-92f3-ba10769b9ef9",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-ee8a7a80fbc1",
+    "capacity": 467,
+    "used": 170,
+    "free": 297,
+    "vmCount": 10,
+    "type": "ssd",
+    "id": "ds_d0c6ca88-13ba-43ce-ad25-ee8a7a80fbc1",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-fb791b2dd658",
+    "capacity": 503,
+    "used": 92,
+    "free": 411,
+    "vmCount": 26,
+    "type": "ssd",
+    "id": "ds_ad5ee8a8-e1f7-481a-beb3-fb791b2dd658",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-5a82255c97e6",
+    "capacity": 405,
+    "used": 313,
+    "free": 92,
+    "vmCount": 5,
+    "type": "ssd",
+    "id": "ds_3acee2d6-8a40-4108-a59a-5a82255c97e6",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-42d0b43099bd",
+    "capacity": 453,
+    "used": 89,
+    "free": 364,
+    "vmCount": 8,
+    "type": "ssd",
+    "id": "ds_e444e429-2fa7-4f47-ac33-42d0b43099bd",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-d900b657a757",
+    "capacity": 592,
+    "used": 119,
+    "free": 473,
+    "vmCount": 11,
+    "type": "ssd",
+    "id": "ds_dc2c365c-39cf-4b3f-99e7-d900b657a757",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-768c1b2f635d",
+    "capacity": 512,
+    "used": 48,
+    "free": 464,
+    "vmCount": 17,
+    "type": "ssd",
+    "id": "ds_6f460ee4-5df8-4069-bfb7-768c1b2f635d",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-1f256c389a98",
+    "capacity": 189,
+    "used": 125,
+    "free": 64,
+    "vmCount": 17,
+    "type": "ssd",
+    "id": "ds_86cd42ca-c201-477d-ae2b-1f256c389a98",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-746bbe2c01d6",
+    "capacity": 396,
+    "used": 175,
+    "free": 221,
+    "vmCount": 27,
+    "type": "ssd",
+    "id": "ds_783bbf63-7835-45fc-862f-746bbe2c01d6",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-8893f8ca43c7",
+    "capacity": 388,
+    "used": -13,
+    "free": 401,
+    "vmCount": 11,
+    "type": "ssd",
+    "id": "ds_96053e6d-da45-4caa-8c12-8893f8ca43c7",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-67f73ee7dedd",
+    "capacity": 370,
+    "used": 31,
+    "free": 339,
+    "vmCount": 6,
+    "type": "ssd",
+    "id": "ds_b240117d-da90-4652-bfdf-67f73ee7dedd",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-cd059abf7450",
+    "capacity": 522,
+    "used": 198,
+    "free": 324,
+    "vmCount": 9,
+    "type": "ssd",
+    "id": "ds_383d1165-4323-455a-9082-cd059abf7450",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-90bcecdc4d06",
+    "capacity": 204,
+    "used": 37,
+    "free": 167,
+    "vmCount": 24,
+    "type": "ssd",
+    "id": "ds_c117585f-0f06-4643-813b-90bcecdc4d06",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-0353df4c385b",
+    "capacity": 568,
+    "used": 542,
+    "free": 26,
+    "vmCount": 5,
+    "type": "ssd",
+    "id": "ds_47a882f0-546c-4be1-bc6b-0353df4c385b",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-fe0d4abfb57b",
+    "capacity": 506,
+    "used": 105,
+    "free": 401,
+    "vmCount": 16,
+    "type": "ssd",
+    "id": "ds_75735087-93ae-4906-aa93-fe0d4abfb57b",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-97ea1f44a8e6",
+    "capacity": 591,
+    "used": 92,
+    "free": 499,
+    "vmCount": 14,
+    "type": "ssd",
+    "id": "ds_ae330153-ae0e-4c23-8ec4-97ea1f44a8e6",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-ffd6f288f2de",
+    "capacity": 163,
+    "used": 51,
+    "free": 112,
+    "vmCount": 28,
+    "type": "ssd",
+    "id": "ds_dbb61e03-da34-4abb-8f55-ffd6f288f2de",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-8db87c6765b2",
+    "capacity": 359,
+    "used": 207,
+    "free": 152,
+    "vmCount": 10,
+    "type": "ssd",
+    "id": "ds_92c0572e-a8a8-41bc-904a-8db87c6765b2",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-e62d840105a2",
+    "capacity": 180,
+    "used": 32,
+    "free": 148,
+    "vmCount": 19,
+    "type": "ssd",
+    "id": "ds_b8afdf23-998d-40a7-80d1-e62d840105a2",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-bfcea5ba9f78",
+    "capacity": 195,
+    "used": 156,
+    "free": 39,
+    "vmCount": 25,
+    "type": "ssd",
+    "id": "ds_2eac911c-d461-4335-878a-bfcea5ba9f78",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-6451345e6e29",
+    "capacity": 564,
+    "used": 191,
+    "free": 373,
+    "vmCount": 24,
+    "type": "ssd",
+    "id": "ds_9ff4f071-a07e-4552-806c-6451345e6e29",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-bec136689644",
+    "capacity": 594,
+    "used": 351,
+    "free": 243,
+    "vmCount": 9,
+    "type": "ssd",
+    "id": "ds_99fd4753-e68e-4114-bb0e-bec136689644",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-901a2c65c67b",
+    "capacity": 446,
+    "used": 384,
+    "free": 62,
+    "vmCount": 5,
+    "type": "ssd",
+    "id": "ds_45f11828-c75e-481d-9aa7-901a2c65c67b",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-682a9739803b",
+    "capacity": 439,
+    "used": 276,
+    "free": 163,
+    "vmCount": 24,
+    "type": "ssd",
+    "id": "ds_51a649de-8a35-479a-8158-682a9739803b",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-b7a437322a08",
+    "capacity": 502,
+    "used": 205,
+    "free": 297,
+    "vmCount": 26,
+    "type": "ssd",
+    "id": "ds_a6a80d0b-adba-4bcc-8668-b7a437322a08",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-eb4d532cba29",
+    "capacity": 420,
+    "used": 38,
+    "free": 382,
+    "vmCount": 12,
+    "type": "ssd",
+    "id": "ds_4c45e738-e869-4943-9dba-eb4d532cba29",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-c141db9f7ccc",
+    "capacity": 307,
+    "used": 77,
+    "free": 230,
+    "vmCount": 13,
+    "type": "ssd",
+    "id": "ds_e2aae663-bc77-4fda-b81e-c141db9f7ccc",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-acbf3946d1e7",
+    "capacity": 381,
+    "used": 144,
+    "free": 237,
+    "vmCount": 6,
+    "type": "ssd",
+    "id": "ds_a9db40b6-dbf5-4abb-9d5c-acbf3946d1e7",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-c40fbd507188",
+    "capacity": 155,
+    "used": 89,
+    "free": 66,
+    "vmCount": 8,
+    "type": "ssd",
+    "id": "ds_7e8fdfb5-2dc4-4c54-96d4-c40fbd507188",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-2adfbc16485d",
+    "capacity": 515,
+    "used": 249,
+    "free": 266,
+    "vmCount": 11,
+    "type": "ssd",
+    "id": "ds_2280cf93-e7a2-4d89-81c8-2adfbc16485d",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-bea51a278b7c",
+    "capacity": 502,
+    "used": 406,
+    "free": 96,
+    "vmCount": 16,
+    "type": "ssd",
+    "id": "ds_cf30fafb-f480-4d15-8077-bea51a278b7c",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-15fd71d03df0",
+    "capacity": 417,
+    "used": 273,
+    "free": 144,
+    "vmCount": 28,
+    "type": "ssd",
+    "id": "ds_c89604b7-e8ae-4798-8d32-15fd71d03df0",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-5b976a63bec3",
+    "capacity": 311,
+    "used": 115,
+    "free": 196,
+    "vmCount": 13,
+    "type": "ssd",
+    "id": "ds_5e31f181-16b1-4d25-bbc4-5b976a63bec3",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-a4bc1e275a21",
+    "capacity": 529,
+    "used": 397,
+    "free": 132,
+    "vmCount": 7,
+    "type": "ssd",
+    "id": "ds_12173b5e-d031-49af-8b3d-a4bc1e275a21",
+    "isDedup": true
+  },
+  {
+    "name": "ds_-980d6057e853",
+    "capacity": 469,
+    "used": 98,
+    "free": 371,
+    "vmCount": 26,
+    "type": "ssd",
+    "id": "ds_a02160ef-792d-4251-9f64-980d6057e853",
+    "isDedup": true
+  }
+]
