@@ -1,0 +1,2575 @@
+{
+  "dacenters": [
+    {
+      "datacenter": {
+        "name": "cs002_dc",
+        "type": "Datacenter",
+        "value": "datacenter-78"
+      },
+      "clusters": [
+        {
+          "cluster": {
+            "name": "cs002_stv_cls",
+            "type": "ClusterComputeResource",
+            "value": "domain-c83"
+          },
+          "datastore": [],
+          "vms": [
+            {
+              "name": "workload_vm_391",
+              "type": "VirtualMachine",
+              "value": "vm-520"
+            },
+            {
+              "name": "workload_vm_188",
+              "type": "VirtualMachine",
+              "value": "vm-317"
+            },
+            {
+              "name": "workload_vm_485",
+              "type": "VirtualMachine",
+              "value": "vm-614"
+            },
+            {
+              "name": "workload_vm_363",
+              "type": "VirtualMachine",
+              "value": "vm-492"
+            },
+            {
+              "name": "workload_vm_194",
+              "type": "VirtualMachine",
+              "value": "vm-323"
+            },
+            {
+              "name": "vaibhav_template",
+              "type": "VirtualMachine",
+              "value": "vm-124"
+            },
+            {
+              "name": "workload_vm_329",
+              "type": "VirtualMachine",
+              "value": "vm-458"
+            },
+            {
+              "name": "workload_vm_192",
+              "type": "VirtualMachine",
+              "value": "vm-321"
+            },
+            {
+              "name": "workload_vm_296",
+              "type": "VirtualMachine",
+              "value": "vm-425"
+            },
+            {
+              "name": "workload_vm_a1",
+              "type": "VirtualMachine",
+              "value": "vm-104"
+            },
+            {
+              "name": "workload_vm_390",
+              "type": "VirtualMachine",
+              "value": "vm-519"
+            },
+            {
+              "name": "workload_vm_237",
+              "type": "VirtualMachine",
+              "value": "vm-366"
+            },
+            {
+              "name": "workload_vm_230",
+              "type": "VirtualMachine",
+              "value": "vm-359"
+            },
+            {
+              "name": "workload_vm_427",
+              "type": "VirtualMachine",
+              "value": "vm-556"
+            },
+            {
+              "name": "workload_vm_271",
+              "type": "VirtualMachine",
+              "value": "vm-400"
+            },
+            {
+              "name": "workload_vm_317",
+              "type": "VirtualMachine",
+              "value": "vm-446"
+            },
+            {
+              "name": "workload_vm_100",
+              "type": "VirtualMachine",
+              "value": "vm-229"
+            },
+            {
+              "name": "workload_vm_222",
+              "type": "VirtualMachine",
+              "value": "vm-351"
+            },
+            {
+              "name": "workload_vm_3",
+              "type": "VirtualMachine",
+              "value": "vm-130"
+            },
+            {
+              "name": "workload_vm_71",
+              "type": "VirtualMachine",
+              "value": "vm-198"
+            },
+            {
+              "name": "workload_vm_215",
+              "type": "VirtualMachine",
+              "value": "vm-344"
+            },
+            {
+              "name": "workload_vm_104",
+              "type": "VirtualMachine",
+              "value": "vm-233"
+            },
+            {
+              "name": "workload_vm_76",
+              "type": "VirtualMachine",
+              "value": "vm-203"
+            },
+            {
+              "name": "workload_vm_387",
+              "type": "VirtualMachine",
+              "value": "vm-516"
+            },
+            {
+              "name": "workload_vm_348",
+              "type": "VirtualMachine",
+              "value": "vm-477"
+            },
+            {
+              "name": "workload_vm_178",
+              "type": "VirtualMachine",
+              "value": "vm-307"
+            },
+            {
+              "name": "workload_vm_304",
+              "type": "VirtualMachine",
+              "value": "vm-433"
+            },
+            {
+              "name": "workload_vm_326",
+              "type": "VirtualMachine",
+              "value": "vm-455"
+            },
+            {
+              "name": "workload_vm_376",
+              "type": "VirtualMachine",
+              "value": "vm-505"
+            },
+            {
+              "name": "workload_vm_331",
+              "type": "VirtualMachine",
+              "value": "vm-460"
+            },
+            {
+              "name": "workload_vm_199",
+              "type": "VirtualMachine",
+              "value": "vm-328"
+            },
+            {
+              "name": "workload_vm_210",
+              "type": "VirtualMachine",
+              "value": "vm-339"
+            },
+            {
+              "name": "workload_vm_155",
+              "type": "VirtualMachine",
+              "value": "vm-284"
+            },
+            {
+              "name": "workload_vm_49",
+              "type": "VirtualMachine",
+              "value": "vm-176"
+            },
+            {
+              "name": "workload_vm_218",
+              "type": "VirtualMachine",
+              "value": "vm-347"
+            },
+            {
+              "name": "workload_vm_277",
+              "type": "VirtualMachine",
+              "value": "vm-406"
+            },
+            {
+              "name": "stCtlVM-0123456789 (2)",
+              "type": "VirtualMachine",
+              "value": "vm-96"
+            },
+            {
+              "name": "workload_vm_72",
+              "type": "VirtualMachine",
+              "value": "vm-199"
+            },
+            {
+              "name": "workload_vm_425",
+              "type": "VirtualMachine",
+              "value": "vm-554"
+            },
+            {
+              "name": "workload_vm_298",
+              "type": "VirtualMachine",
+              "value": "vm-427"
+            },
+            {
+              "name": "workload_vm_150",
+              "type": "VirtualMachine",
+              "value": "vm-279"
+            },
+            {
+              "name": "workload_vm_467",
+              "type": "VirtualMachine",
+              "value": "vm-596"
+            },
+            {
+              "name": "workload_vm_127",
+              "type": "VirtualMachine",
+              "value": "vm-256"
+            },
+            {
+              "name": "workload_vm_63",
+              "type": "VirtualMachine",
+              "value": "vm-190"
+            },
+            {
+              "name": "workload_vm_407",
+              "type": "VirtualMachine",
+              "value": "vm-536"
+            },
+            {
+              "name": "workload_vm_302",
+              "type": "VirtualMachine",
+              "value": "vm-431"
+            },
+            {
+              "name": "workload_vm_163",
+              "type": "VirtualMachine",
+              "value": "vm-292"
+            },
+            {
+              "name": "workload_vm_69",
+              "type": "VirtualMachine",
+              "value": "vm-196"
+            },
+            {
+              "name": "workload_vm_340",
+              "type": "VirtualMachine",
+              "value": "vm-469"
+            },
+            {
+              "name": "workload_vm_457",
+              "type": "VirtualMachine",
+              "value": "vm-586"
+            },
+            {
+              "name": "workload_vm_154",
+              "type": "VirtualMachine",
+              "value": "vm-283"
+            },
+            {
+              "name": "workload_vm_43",
+              "type": "VirtualMachine",
+              "value": "vm-170"
+            },
+            {
+              "name": "workload_vm_361",
+              "type": "VirtualMachine",
+              "value": "vm-490"
+            },
+            {
+              "name": "workload_vm_432",
+              "type": "VirtualMachine",
+              "value": "vm-561"
+            },
+            {
+              "name": "workload_vm_431",
+              "type": "VirtualMachine",
+              "value": "vm-560"
+            },
+            {
+              "name": "workload_vm_243",
+              "type": "VirtualMachine",
+              "value": "vm-372"
+            },
+            {
+              "name": "workload_vm_282",
+              "type": "VirtualMachine",
+              "value": "vm-411"
+            },
+            {
+              "name": "workload_vm_136",
+              "type": "VirtualMachine",
+              "value": "vm-265"
+            },
+            {
+              "name": "workload_vm_86",
+              "type": "VirtualMachine",
+              "value": "vm-213"
+            },
+            {
+              "name": "workload_vm_381",
+              "type": "VirtualMachine",
+              "value": "vm-510"
+            },
+            {
+              "name": "workload_vm_182",
+              "type": "VirtualMachine",
+              "value": "vm-311"
+            },
+            {
+              "name": "workload_vm_408",
+              "type": "VirtualMachine",
+              "value": "vm-537"
+            },
+            {
+              "name": "workload_vm_239",
+              "type": "VirtualMachine",
+              "value": "vm-368"
+            },
+            {
+              "name": "workload_vm_301",
+              "type": "VirtualMachine",
+              "value": "vm-430"
+            },
+            {
+              "name": "workload_vm_336",
+              "type": "VirtualMachine",
+              "value": "vm-465"
+            },
+            {
+              "name": "workload_vm_126",
+              "type": "VirtualMachine",
+              "value": "vm-255"
+            },
+            {
+              "name": "workload_vm_341",
+              "type": "VirtualMachine",
+              "value": "vm-470"
+            },
+            {
+              "name": "workload_vm_323",
+              "type": "VirtualMachine",
+              "value": "vm-452"
+            },
+            {
+              "name": "workload_vm_267",
+              "type": "VirtualMachine",
+              "value": "vm-396"
+            },
+            {
+              "name": "workload_vm_168",
+              "type": "VirtualMachine",
+              "value": "vm-297"
+            },
+            {
+              "name": "workload_vm_162",
+              "type": "VirtualMachine",
+              "value": "vm-291"
+            },
+            {
+              "name": "workload_vm_60",
+              "type": "VirtualMachine",
+              "value": "vm-187"
+            },
+            {
+              "name": "workload_vm_434",
+              "type": "VirtualMachine",
+              "value": "vm-563"
+            },
+            {
+              "name": "workload_vm_468",
+              "type": "VirtualMachine",
+              "value": "vm-597"
+            },
+            {
+              "name": "workload_vm_315",
+              "type": "VirtualMachine",
+              "value": "vm-444"
+            },
+            {
+              "name": "workload_vm_310",
+              "type": "VirtualMachine",
+              "value": "vm-439"
+            },
+            {
+              "name": "workload_vm_444",
+              "type": "VirtualMachine",
+              "value": "vm-573"
+            },
+            {
+              "name": "workload_vm_233",
+              "type": "VirtualMachine",
+              "value": "vm-362"
+            },
+            {
+              "name": "workload_vm_354",
+              "type": "VirtualMachine",
+              "value": "vm-483"
+            },
+            {
+              "name": "workload_vm_295",
+              "type": "VirtualMachine",
+              "value": "vm-424"
+            },
+            {
+              "name": "workload_vm_164",
+              "type": "VirtualMachine",
+              "value": "vm-293"
+            },
+            {
+              "name": "workload_vm_53",
+              "type": "VirtualMachine",
+              "value": "vm-180"
+            },
+            {
+              "name": "workload_vm_321",
+              "type": "VirtualMachine",
+              "value": "vm-450"
+            },
+            {
+              "name": "workload_vm_429",
+              "type": "VirtualMachine",
+              "value": "vm-558"
+            },
+            {
+              "name": "workload_vm_132",
+              "type": "VirtualMachine",
+              "value": "vm-261"
+            },
+            {
+              "name": "workload_vm_82",
+              "type": "VirtualMachine",
+              "value": "vm-209"
+            },
+            {
+              "name": "workload_vm_436",
+              "type": "VirtualMachine",
+              "value": "vm-565"
+            },
+            {
+              "name": "workload_vm_189",
+              "type": "VirtualMachine",
+              "value": "vm-318"
+            },
+            {
+              "name": "workload_vm_269",
+              "type": "VirtualMachine",
+              "value": "vm-398"
+            },
+            {
+              "name": "workload_vm_190",
+              "type": "VirtualMachine",
+              "value": "vm-319"
+            },
+            {
+              "name": "workload_vm_61",
+              "type": "VirtualMachine",
+              "value": "vm-188"
+            },
+            {
+              "name": "workload_vm_148",
+              "type": "VirtualMachine",
+              "value": "vm-277"
+            },
+            {
+              "name": "workload_vm_139",
+              "type": "VirtualMachine",
+              "value": "vm-268"
+            },
+            {
+              "name": "workload_vm_143",
+              "type": "VirtualMachine",
+              "value": "vm-272"
+            },
+            {
+              "name": "workload_vm_405",
+              "type": "VirtualMachine",
+              "value": "vm-534"
+            },
+            {
+              "name": "workload_vm_186",
+              "type": "VirtualMachine",
+              "value": "vm-315"
+            },
+            {
+              "name": "workload_vm_402",
+              "type": "VirtualMachine",
+              "value": "vm-531"
+            },
+            {
+              "name": "workload_vm_251",
+              "type": "VirtualMachine",
+              "value": "vm-380"
+            },
+            {
+              "name": "workload_vm_314",
+              "type": "VirtualMachine",
+              "value": "vm-443"
+            },
+            {
+              "name": "workload_vm_8",
+              "type": "VirtualMachine",
+              "value": "vm-135"
+            },
+            {
+              "name": "workload_vm_369",
+              "type": "VirtualMachine",
+              "value": "vm-498"
+            },
+            {
+              "name": "workload_vm_442",
+              "type": "VirtualMachine",
+              "value": "vm-571"
+            },
+            {
+              "name": "workload_vm_464",
+              "type": "VirtualMachine",
+              "value": "vm-593"
+            },
+            {
+              "name": "workload_vm_227",
+              "type": "VirtualMachine",
+              "value": "vm-356"
+            },
+            {
+              "name": "workload_vm_285",
+              "type": "VirtualMachine",
+              "value": "vm-414"
+            },
+            {
+              "name": "workload_vm_430",
+              "type": "VirtualMachine",
+              "value": "vm-559"
+            },
+            {
+              "name": "workload_vm_228",
+              "type": "VirtualMachine",
+              "value": "vm-357"
+            },
+            {
+              "name": "workload_vm_412",
+              "type": "VirtualMachine",
+              "value": "vm-541"
+            },
+            {
+              "name": "workload_vm_367",
+              "type": "VirtualMachine",
+              "value": "vm-496"
+            },
+            {
+              "name": "workload_vm_23",
+              "type": "VirtualMachine",
+              "value": "vm-150"
+            },
+            {
+              "name": "workload_vm_352",
+              "type": "VirtualMachine",
+              "value": "vm-481"
+            },
+            {
+              "name": "workload_vm_78",
+              "type": "VirtualMachine",
+              "value": "vm-205"
+            },
+            {
+              "name": "workload_vm_0",
+              "type": "VirtualMachine",
+              "value": "vm-127"
+            },
+            {
+              "name": "workload_vm_353",
+              "type": "VirtualMachine",
+              "value": "vm-482"
+            },
+            {
+              "name": "workload_vm_4",
+              "type": "VirtualMachine",
+              "value": "vm-131"
+            },
+            {
+              "name": "workload_vm_318",
+              "type": "VirtualMachine",
+              "value": "vm-447"
+            },
+            {
+              "name": "workload_vm_99",
+              "type": "VirtualMachine",
+              "value": "vm-226"
+            },
+            {
+              "name": "workload_vm_88",
+              "type": "VirtualMachine",
+              "value": "vm-215"
+            },
+            {
+              "name": "workload_vm_103",
+              "type": "VirtualMachine",
+              "value": "vm-232"
+            },
+            {
+              "name": "workload_vm_225",
+              "type": "VirtualMachine",
+              "value": "vm-354"
+            },
+            {
+              "name": "workload_vm_146",
+              "type": "VirtualMachine",
+              "value": "vm-275"
+            },
+            {
+              "name": "workload_vm_411",
+              "type": "VirtualMachine",
+              "value": "vm-540"
+            },
+            {
+              "name": "workload_vm_489",
+              "type": "VirtualMachine",
+              "value": "vm-618"
+            },
+            {
+              "name": "workload_vm_219",
+              "type": "VirtualMachine",
+              "value": "vm-348"
+            },
+            {
+              "name": "workload_vm_117",
+              "type": "VirtualMachine",
+              "value": "vm-246"
+            },
+            {
+              "name": "workload_vm_145",
+              "type": "VirtualMachine",
+              "value": "vm-274"
+            },
+            {
+              "name": "workload_vm_134",
+              "type": "VirtualMachine",
+              "value": "vm-263"
+            },
+            {
+              "name": "workload_vm_46",
+              "type": "VirtualMachine",
+              "value": "vm-173"
+            },
+            {
+              "name": "workload_vm_382",
+              "type": "VirtualMachine",
+              "value": "vm-511"
+            },
+            {
+              "name": "workload_vm_268",
+              "type": "VirtualMachine",
+              "value": "vm-397"
+            },
+            {
+              "name": "workload_vm_39",
+              "type": "VirtualMachine",
+              "value": "vm-166"
+            },
+            {
+              "name": "workload_vm_116",
+              "type": "VirtualMachine",
+              "value": "vm-245"
+            },
+            {
+              "name": "workload_vm_346",
+              "type": "VirtualMachine",
+              "value": "vm-475"
+            },
+            {
+              "name": "workload_vm_273",
+              "type": "VirtualMachine",
+              "value": "vm-402"
+            },
+            {
+              "name": "workload_vm_217",
+              "type": "VirtualMachine",
+              "value": "vm-346"
+            },
+            {
+              "name": "workload_vm_195",
+              "type": "VirtualMachine",
+              "value": "vm-324"
+            },
+            {
+              "name": "workload_vm_397",
+              "type": "VirtualMachine",
+              "value": "vm-526"
+            },
+            {
+              "name": "workload_vm_305",
+              "type": "VirtualMachine",
+              "value": "vm-434"
+            },
+            {
+              "name": "workload_vm_265",
+              "type": "VirtualMachine",
+              "value": "vm-394"
+            },
+            {
+              "name": "workload_vm_385",
+              "type": "VirtualMachine",
+              "value": "vm-514"
+            },
+            {
+              "name": "workload_vm_229",
+              "type": "VirtualMachine",
+              "value": "vm-358"
+            },
+            {
+              "name": "workload_vm_422",
+              "type": "VirtualMachine",
+              "value": "vm-551"
+            },
+            {
+              "name": "workload_vm_421",
+              "type": "VirtualMachine",
+              "value": "vm-550"
+            },
+            {
+              "name": "workload_vm_398",
+              "type": "VirtualMachine",
+              "value": "vm-527"
+            },
+            {
+              "name": "workload_vm_270",
+              "type": "VirtualMachine",
+              "value": "vm-399"
+            },
+            {
+              "name": "workload_vm_248",
+              "type": "VirtualMachine",
+              "value": "vm-377"
+            },
+            {
+              "name": "workload_vm_303",
+              "type": "VirtualMachine",
+              "value": "vm-432"
+            },
+            {
+              "name": "workload_vm_384",
+              "type": "VirtualMachine",
+              "value": "vm-513"
+            },
+            {
+              "name": "workload_vm_472",
+              "type": "VirtualMachine",
+              "value": "vm-601"
+            },
+            {
+              "name": "workload_vm_26",
+              "type": "VirtualMachine",
+              "value": "vm-153"
+            },
+            {
+              "name": "workload_vm_24",
+              "type": "VirtualMachine",
+              "value": "vm-151"
+            },
+            {
+              "name": "workload_vm_55",
+              "type": "VirtualMachine",
+              "value": "vm-182"
+            },
+            {
+              "name": "workload_vm_14",
+              "type": "VirtualMachine",
+              "value": "vm-141"
+            },
+            {
+              "name": "workload_vm_454",
+              "type": "VirtualMachine",
+              "value": "vm-583"
+            },
+            {
+              "name": "workload_vm_347",
+              "type": "VirtualMachine",
+              "value": "vm-476"
+            },
+            {
+              "name": "workload_vm_16",
+              "type": "VirtualMachine",
+              "value": "vm-143"
+            },
+            {
+              "name": "workload_vm_254",
+              "type": "VirtualMachine",
+              "value": "vm-383"
+            },
+            {
+              "name": "workload_vm_466",
+              "type": "VirtualMachine",
+              "value": "vm-595"
+            },
+            {
+              "name": "workload_vm_212",
+              "type": "VirtualMachine",
+              "value": "vm-341"
+            },
+            {
+              "name": "workload_vm_474",
+              "type": "VirtualMachine",
+              "value": "vm-603"
+            },
+            {
+              "name": "workload_vm_322",
+              "type": "VirtualMachine",
+              "value": "vm-451"
+            },
+            {
+              "name": "workload_vm_102",
+              "type": "VirtualMachine",
+              "value": "vm-231"
+            },
+            {
+              "name": "workload_vm_124",
+              "type": "VirtualMachine",
+              "value": "vm-253"
+            },
+            {
+              "name": "workload_vm_373",
+              "type": "VirtualMachine",
+              "value": "vm-502"
+            },
+            {
+              "name": "workload_vm_52",
+              "type": "VirtualMachine",
+              "value": "vm-179"
+            },
+            {
+              "name": "workload_vm_455",
+              "type": "VirtualMachine",
+              "value": "vm-584"
+            },
+            {
+              "name": "workload_vm_50",
+              "type": "VirtualMachine",
+              "value": "vm-177"
+            },
+            {
+              "name": "workload_vm_10",
+              "type": "VirtualMachine",
+              "value": "vm-137"
+            },
+            {
+              "name": "workload_vm_115",
+              "type": "VirtualMachine",
+              "value": "vm-244"
+            },
+            {
+              "name": "workload_vm_490",
+              "type": "VirtualMachine",
+              "value": "vm-619"
+            },
+            {
+              "name": "workload_vm_98",
+              "type": "VirtualMachine",
+              "value": "vm-225"
+            },
+            {
+              "name": "workload_vm_342",
+              "type": "VirtualMachine",
+              "value": "vm-471"
+            },
+            {
+              "name": "workload_vm_246",
+              "type": "VirtualMachine",
+              "value": "vm-375"
+            },
+            {
+              "name": "workload_vm_119",
+              "type": "VirtualMachine",
+              "value": "vm-248"
+            },
+            {
+              "name": "workload_vm_478",
+              "type": "VirtualMachine",
+              "value": "vm-607"
+            },
+            {
+              "name": "workload_vm_54",
+              "type": "VirtualMachine",
+              "value": "vm-181"
+            },
+            {
+              "name": "workload_vm_337",
+              "type": "VirtualMachine",
+              "value": "vm-466"
+            },
+            {
+              "name": "workload_vm_173",
+              "type": "VirtualMachine",
+              "value": "vm-302"
+            },
+            {
+              "name": "workload_vm_470",
+              "type": "VirtualMachine",
+              "value": "vm-599"
+            },
+            {
+              "name": "workload_vm_297",
+              "type": "VirtualMachine",
+              "value": "vm-426"
+            },
+            {
+              "name": "workload_vm_221",
+              "type": "VirtualMachine",
+              "value": "vm-350"
+            },
+            {
+              "name": "workload_vm_165",
+              "type": "VirtualMachine",
+              "value": "vm-294"
+            },
+            {
+              "name": "workload_vm_213",
+              "type": "VirtualMachine",
+              "value": "vm-342"
+            },
+            {
+              "name": "workload_vm_9",
+              "type": "VirtualMachine",
+              "value": "vm-136"
+            },
+            {
+              "name": "workload_vm_488",
+              "type": "VirtualMachine",
+              "value": "vm-617"
+            },
+            {
+              "name": "workload_vm_324",
+              "type": "VirtualMachine",
+              "value": "vm-453"
+            },
+            {
+              "name": "workload_vm_22",
+              "type": "VirtualMachine",
+              "value": "vm-149"
+            },
+            {
+              "name": "workload_vm_343",
+              "type": "VirtualMachine",
+              "value": "vm-472"
+            },
+            {
+              "name": "workload_vm_378",
+              "type": "VirtualMachine",
+              "value": "vm-507"
+            },
+            {
+              "name": "workload_vm_351",
+              "type": "VirtualMachine",
+              "value": "vm-480"
+            },
+            {
+              "name": "workload_vm_493",
+              "type": "VirtualMachine",
+              "value": "vm-622"
+            },
+            {
+              "name": "workload_vm_306",
+              "type": "VirtualMachine",
+              "value": "vm-435"
+            },
+            {
+              "name": "workload_vm_149",
+              "type": "VirtualMachine",
+              "value": "vm-278"
+            },
+            {
+              "name": "workload_vm_359",
+              "type": "VirtualMachine",
+              "value": "vm-488"
+            },
+            {
+              "name": "workload_vm_181",
+              "type": "VirtualMachine",
+              "value": "vm-310"
+            },
+            {
+              "name": "workload_vm_374",
+              "type": "VirtualMachine",
+              "value": "vm-503"
+            },
+            {
+              "name": "workload_vm_109",
+              "type": "VirtualMachine",
+              "value": "vm-238"
+            },
+            {
+              "name": "workload_vm_393",
+              "type": "VirtualMachine",
+              "value": "vm-522"
+            },
+            {
+              "name": "workload_vm_309",
+              "type": "VirtualMachine",
+              "value": "vm-438"
+            },
+            {
+              "name": "workload_vm_366",
+              "type": "VirtualMachine",
+              "value": "vm-495"
+            },
+            {
+              "name": "workload_vm_93",
+              "type": "VirtualMachine",
+              "value": "vm-220"
+            },
+            {
+              "name": "workload_vm_287",
+              "type": "VirtualMachine",
+              "value": "vm-416"
+            },
+            {
+              "name": "workload_vm_160",
+              "type": "VirtualMachine",
+              "value": "vm-289"
+            },
+            {
+              "name": "workload_vm_360",
+              "type": "VirtualMachine",
+              "value": "vm-489"
+            },
+            {
+              "name": "workload_vm_484",
+              "type": "VirtualMachine",
+              "value": "vm-613"
+            },
+            {
+              "name": "workload_vm_339",
+              "type": "VirtualMachine",
+              "value": "vm-468"
+            },
+            {
+              "name": "workload_vm_74",
+              "type": "VirtualMachine",
+              "value": "vm-201"
+            },
+            {
+              "name": "workload_vm_275",
+              "type": "VirtualMachine",
+              "value": "vm-404"
+            },
+            {
+              "name": "workload_vm_497",
+              "type": "VirtualMachine",
+              "value": "vm-626"
+            },
+            {
+              "name": "workload_vm_461",
+              "type": "VirtualMachine",
+              "value": "vm-590"
+            },
+            {
+              "name": "workload_vm_153",
+              "type": "VirtualMachine",
+              "value": "vm-282"
+            },
+            {
+              "name": "workload_vm_300",
+              "type": "VirtualMachine",
+              "value": "vm-429"
+            },
+            {
+              "name": "workload_vm_209",
+              "type": "VirtualMachine",
+              "value": "vm-338"
+            },
+            {
+              "name": "workload_vm_446",
+              "type": "VirtualMachine",
+              "value": "vm-575"
+            },
+            {
+              "name": "workload_vm_320",
+              "type": "VirtualMachine",
+              "value": "vm-449"
+            },
+            {
+              "name": "workload_vm_13",
+              "type": "VirtualMachine",
+              "value": "vm-140"
+            },
+            {
+              "name": "workload_vm_278",
+              "type": "VirtualMachine",
+              "value": "vm-407"
+            },
+            {
+              "name": "workload_vm_247",
+              "type": "VirtualMachine",
+              "value": "vm-376"
+            },
+            {
+              "name": "workload_vm_110",
+              "type": "VirtualMachine",
+              "value": "vm-239"
+            },
+            {
+              "name": "workload_vm_256",
+              "type": "VirtualMachine",
+              "value": "vm-385"
+            },
+            {
+              "name": "workload_vm_404",
+              "type": "VirtualMachine",
+              "value": "vm-533"
+            },
+            {
+              "name": "workload_vm_1",
+              "type": "VirtualMachine",
+              "value": "vm-128"
+            },
+            {
+              "name": "workload_vm_204",
+              "type": "VirtualMachine",
+              "value": "vm-333"
+            },
+            {
+              "name": "workload_vm_142",
+              "type": "VirtualMachine",
+              "value": "vm-271"
+            },
+            {
+              "name": "workload_vm_377",
+              "type": "VirtualMachine",
+              "value": "vm-506"
+            },
+            {
+              "name": "stCtlVM-0123456789",
+              "type": "VirtualMachine",
+              "value": "vm-100"
+            },
+            {
+              "name": "workload_vm_240",
+              "type": "VirtualMachine",
+              "value": "vm-369"
+            },
+            {
+              "name": "workload_vm_101",
+              "type": "VirtualMachine",
+              "value": "vm-230"
+            },
+            {
+              "name": "workload_vm_311",
+              "type": "VirtualMachine",
+              "value": "vm-440"
+            },
+            {
+              "name": "workload_vm_44",
+              "type": "VirtualMachine",
+              "value": "vm-171"
+            },
+            {
+              "name": "workload_vm_56",
+              "type": "VirtualMachine",
+              "value": "vm-183"
+            },
+            {
+              "name": "workload_vm_41",
+              "type": "VirtualMachine",
+              "value": "vm-168"
+            },
+            {
+              "name": "workload_vm_263",
+              "type": "VirtualMachine",
+              "value": "vm-392"
+            },
+            {
+              "name": "workload_vm_6",
+              "type": "VirtualMachine",
+              "value": "vm-133"
+            },
+            {
+              "name": "workload_vm_31",
+              "type": "VirtualMachine",
+              "value": "vm-158"
+            },
+            {
+              "name": "workload_vm_81",
+              "type": "VirtualMachine",
+              "value": "vm-208"
+            },
+            {
+              "name": "workload_vm_299",
+              "type": "VirtualMachine",
+              "value": "vm-428"
+            },
+            {
+              "name": "workload_vm_48",
+              "type": "VirtualMachine",
+              "value": "vm-175"
+            },
+            {
+              "name": "workload_vm_206",
+              "type": "VirtualMachine",
+              "value": "vm-335"
+            },
+            {
+              "name": "workload_vm_338",
+              "type": "VirtualMachine",
+              "value": "vm-467"
+            },
+            {
+              "name": "workload_vm_426",
+              "type": "VirtualMachine",
+              "value": "vm-555"
+            },
+            {
+              "name": "workload_vm_208",
+              "type": "VirtualMachine",
+              "value": "vm-337"
+            },
+            {
+              "name": "workload_vm_85",
+              "type": "VirtualMachine",
+              "value": "vm-212"
+            },
+            {
+              "name": "workload_vm_224",
+              "type": "VirtualMachine",
+              "value": "vm-353"
+            },
+            {
+              "name": "workload_vm_414",
+              "type": "VirtualMachine",
+              "value": "vm-543"
+            },
+            {
+              "name": "workload_vm_379",
+              "type": "VirtualMachine",
+              "value": "vm-508"
+            },
+            {
+              "name": "workload_vm_334",
+              "type": "VirtualMachine",
+              "value": "vm-463"
+            },
+            {
+              "name": "workload_vm_437",
+              "type": "VirtualMachine",
+              "value": "vm-566"
+            },
+            {
+              "name": "workload_vm_123",
+              "type": "VirtualMachine",
+              "value": "vm-252"
+            },
+            {
+              "name": "workload_vm_479",
+              "type": "VirtualMachine",
+              "value": "vm-608"
+            },
+            {
+              "name": "workload_vm_260",
+              "type": "VirtualMachine",
+              "value": "vm-389"
+            },
+            {
+              "name": "workload_vm_261",
+              "type": "VirtualMachine",
+              "value": "vm-390"
+            },
+            {
+              "name": "workload_vm_29",
+              "type": "VirtualMachine",
+              "value": "vm-156"
+            },
+            {
+              "name": "workload_vm_365",
+              "type": "VirtualMachine",
+              "value": "vm-494"
+            },
+            {
+              "name": "workload_vm_350",
+              "type": "VirtualMachine",
+              "value": "vm-479"
+            },
+            {
+              "name": "workload_vm_57",
+              "type": "VirtualMachine",
+              "value": "vm-184"
+            },
+            {
+              "name": "stCtlVM-0123456789 (4)",
+              "type": "VirtualMachine",
+              "value": "vm-101"
+            },
+            {
+              "name": "workload_vm_498",
+              "type": "VirtualMachine",
+              "value": "vm-627"
+            },
+            {
+              "name": "workload_vm_370",
+              "type": "VirtualMachine",
+              "value": "vm-499"
+            },
+            {
+              "name": "workload_vm_333",
+              "type": "VirtualMachine",
+              "value": "vm-462"
+            },
+            {
+              "name": "workload_vm_216",
+              "type": "VirtualMachine",
+              "value": "vm-345"
+            },
+            {
+              "name": "workload_vm_418",
+              "type": "VirtualMachine",
+              "value": "vm-547"
+            },
+            {
+              "name": "workload_vm_125",
+              "type": "VirtualMachine",
+              "value": "vm-254"
+            },
+            {
+              "name": "workload_vm_417",
+              "type": "VirtualMachine",
+              "value": "vm-546"
+            },
+            {
+              "name": "workload_vm_438",
+              "type": "VirtualMachine",
+              "value": "vm-567"
+            },
+            {
+              "name": "workload_vm_242",
+              "type": "VirtualMachine",
+              "value": "vm-371"
+            },
+            {
+              "name": "workload_vm_21",
+              "type": "VirtualMachine",
+              "value": "vm-148"
+            },
+            {
+              "name": "workload_vm_175",
+              "type": "VirtualMachine",
+              "value": "vm-304"
+            },
+            {
+              "name": "workload_vm_357",
+              "type": "VirtualMachine",
+              "value": "vm-486"
+            },
+            {
+              "name": "workload_vm_471",
+              "type": "VirtualMachine",
+              "value": "vm-600"
+            },
+            {
+              "name": "workload_vm_211",
+              "type": "VirtualMachine",
+              "value": "vm-340"
+            },
+            {
+              "name": "workload_vm_449",
+              "type": "VirtualMachine",
+              "value": "vm-578"
+            },
+            {
+              "name": "workload_vm_410",
+              "type": "VirtualMachine",
+              "value": "vm-539"
+            },
+            {
+              "name": "workload_vm_144",
+              "type": "VirtualMachine",
+              "value": "vm-273"
+            },
+            {
+              "name": "workload_vm_487",
+              "type": "VirtualMachine",
+              "value": "vm-616"
+            },
+            {
+              "name": "workload_vm_234",
+              "type": "VirtualMachine",
+              "value": "vm-363"
+            },
+            {
+              "name": "workload_vm_316",
+              "type": "VirtualMachine",
+              "value": "vm-445"
+            },
+            {
+              "name": "workload_vm_197",
+              "type": "VirtualMachine",
+              "value": "vm-326"
+            },
+            {
+              "name": "workload_vm_214",
+              "type": "VirtualMachine",
+              "value": "vm-343"
+            },
+            {
+              "name": "workload_vm_198",
+              "type": "VirtualMachine",
+              "value": "vm-327"
+            },
+            {
+              "name": "workload_vm_70",
+              "type": "VirtualMachine",
+              "value": "vm-197"
+            },
+            {
+              "name": "workload_vm_107",
+              "type": "VirtualMachine",
+              "value": "vm-236"
+            },
+            {
+              "name": "workload_vm_362",
+              "type": "VirtualMachine",
+              "value": "vm-491"
+            },
+            {
+              "name": "workload_vm_345",
+              "type": "VirtualMachine",
+              "value": "vm-474"
+            },
+            {
+              "name": "workload_vm_255",
+              "type": "VirtualMachine",
+              "value": "vm-384"
+            },
+            {
+              "name": "workload_vm_65",
+              "type": "VirtualMachine",
+              "value": "vm-192"
+            },
+            {
+              "name": "workload_vm_38",
+              "type": "VirtualMachine",
+              "value": "vm-165"
+            },
+            {
+              "name": "workload_vm_129",
+              "type": "VirtualMachine",
+              "value": "vm-258"
+            },
+            {
+              "name": "workload_vm_157",
+              "type": "VirtualMachine",
+              "value": "vm-286"
+            },
+            {
+              "name": "workload_vm_90",
+              "type": "VirtualMachine",
+              "value": "vm-217"
+            },
+            {
+              "name": "workload_vm_279",
+              "type": "VirtualMachine",
+              "value": "vm-408"
+            },
+            {
+              "name": "workload_vm_344",
+              "type": "VirtualMachine",
+              "value": "vm-473"
+            },
+            {
+              "name": "workload_vm_158",
+              "type": "VirtualMachine",
+              "value": "vm-287"
+            },
+            {
+              "name": "workload_vm_428",
+              "type": "VirtualMachine",
+              "value": "vm-557"
+            },
+            {
+              "name": "workload_vm_172",
+              "type": "VirtualMachine",
+              "value": "vm-301"
+            },
+            {
+              "name": "workload_vm_459",
+              "type": "VirtualMachine",
+              "value": "vm-588"
+            },
+            {
+              "name": "workload_vm_11",
+              "type": "VirtualMachine",
+              "value": "vm-138"
+            },
+            {
+              "name": "workload_vm_17",
+              "type": "VirtualMachine",
+              "value": "vm-144"
+            },
+            {
+              "name": "workload_vm_406",
+              "type": "VirtualMachine",
+              "value": "vm-535"
+            },
+            {
+              "name": "workload_vm_202",
+              "type": "VirtualMachine",
+              "value": "vm-331"
+            },
+            {
+              "name": "workload_vm_441",
+              "type": "VirtualMachine",
+              "value": "vm-570"
+            },
+            {
+              "name": "workload_vm_281",
+              "type": "VirtualMachine",
+              "value": "vm-410"
+            },
+            {
+              "name": "workload_vm_469",
+              "type": "VirtualMachine",
+              "value": "vm-598"
+            },
+            {
+              "name": "workload_vm_439",
+              "type": "VirtualMachine",
+              "value": "vm-568"
+            },
+            {
+              "name": "workload_vm_286",
+              "type": "VirtualMachine",
+              "value": "vm-415"
+            },
+            {
+              "name": "workload_vm_291",
+              "type": "VirtualMachine",
+              "value": "vm-420"
+            },
+            {
+              "name": "workload_vm_36",
+              "type": "VirtualMachine",
+              "value": "vm-163"
+            },
+            {
+              "name": "workload_vm_371",
+              "type": "VirtualMachine",
+              "value": "vm-500"
+            },
+            {
+              "name": "workload_vm_232",
+              "type": "VirtualMachine",
+              "value": "vm-361"
+            },
+            {
+              "name": "workload_vm_51",
+              "type": "VirtualMachine",
+              "value": "vm-178"
+            },
+            {
+              "name": "workload_vm_241",
+              "type": "VirtualMachine",
+              "value": "vm-370"
+            },
+            {
+              "name": "workload_vm_416",
+              "type": "VirtualMachine",
+              "value": "vm-545"
+            },
+            {
+              "name": "workload_vm_448",
+              "type": "VirtualMachine",
+              "value": "vm-577"
+            },
+            {
+              "name": "workload_vm_496",
+              "type": "VirtualMachine",
+              "value": "vm-625"
+            },
+            {
+              "name": "workload_vm_111",
+              "type": "VirtualMachine",
+              "value": "vm-240"
+            },
+            {
+              "name": "workload_vm_482",
+              "type": "VirtualMachine",
+              "value": "vm-611"
+            },
+            {
+              "name": "workload_vm_476",
+              "type": "VirtualMachine",
+              "value": "vm-605"
+            },
+            {
+              "name": "workload_vm_112",
+              "type": "VirtualMachine",
+              "value": "vm-241"
+            },
+            {
+              "name": "workload_vm_312",
+              "type": "VirtualMachine",
+              "value": "vm-441"
+            },
+            {
+              "name": "workload_vm_473",
+              "type": "VirtualMachine",
+              "value": "vm-602"
+            },
+            {
+              "name": "workload_vm_386",
+              "type": "VirtualMachine",
+              "value": "vm-515"
+            },
+            {
+              "name": "workload_vm_40",
+              "type": "VirtualMachine",
+              "value": "vm-167"
+            },
+            {
+              "name": "workload_vm_499",
+              "type": "VirtualMachine",
+              "value": "vm-628"
+            },
+            {
+              "name": "workload_vm_450",
+              "type": "VirtualMachine",
+              "value": "vm-579"
+            },
+            {
+              "name": "workload_vm_203",
+              "type": "VirtualMachine",
+              "value": "vm-332"
+            },
+            {
+              "name": "workload_vm_84",
+              "type": "VirtualMachine",
+              "value": "vm-211"
+            },
+            {
+              "name": "workload_vm_335",
+              "type": "VirtualMachine",
+              "value": "vm-464"
+            },
+            {
+              "name": "workload_vm_375",
+              "type": "VirtualMachine",
+              "value": "vm-504"
+            },
+            {
+              "name": "workload_vm_106",
+              "type": "VirtualMachine",
+              "value": "vm-235"
+            },
+            {
+              "name": "workload_vm_494",
+              "type": "VirtualMachine",
+              "value": "vm-623"
+            },
+            {
+              "name": "workload_vm_491",
+              "type": "VirtualMachine",
+              "value": "vm-620"
+            },
+            {
+              "name": "workload_vm_96",
+              "type": "VirtualMachine",
+              "value": "vm-223"
+            },
+            {
+              "name": "workload_vm_59",
+              "type": "VirtualMachine",
+              "value": "vm-186"
+            },
+            {
+              "name": "workload_vm_358",
+              "type": "VirtualMachine",
+              "value": "vm-487"
+            },
+            {
+              "name": "workload_vm_330",
+              "type": "VirtualMachine",
+              "value": "vm-459"
+            },
+            {
+              "name": "workload_vm_141",
+              "type": "VirtualMachine",
+              "value": "vm-270"
+            },
+            {
+              "name": "workload_vm_118",
+              "type": "VirtualMachine",
+              "value": "vm-247"
+            },
+            {
+              "name": "workload_vm_185",
+              "type": "VirtualMachine",
+              "value": "vm-314"
+            },
+            {
+              "name": "workload_vm_28",
+              "type": "VirtualMachine",
+              "value": "vm-155"
+            },
+            {
+              "name": "workload_vm_409",
+              "type": "VirtualMachine",
+              "value": "vm-538"
+            },
+            {
+              "name": "workload_vm_401",
+              "type": "VirtualMachine",
+              "value": "vm-530"
+            },
+            {
+              "name": "workload_vm_45",
+              "type": "VirtualMachine",
+              "value": "vm-172"
+            },
+            {
+              "name": "workload_vm_383",
+              "type": "VirtualMachine",
+              "value": "vm-512"
+            },
+            {
+              "name": "workload_vm_97",
+              "type": "VirtualMachine",
+              "value": "vm-224"
+            },
+            {
+              "name": "workload_vm_413",
+              "type": "VirtualMachine",
+              "value": "vm-542"
+            },
+            {
+              "name": "workload_vm_264",
+              "type": "VirtualMachine",
+              "value": "vm-393"
+            },
+            {
+              "name": "workload_vm_443",
+              "type": "VirtualMachine",
+              "value": "vm-572"
+            },
+            {
+              "name": "workload_vm_440",
+              "type": "VirtualMachine",
+              "value": "vm-569"
+            },
+            {
+              "name": "workload_vm_220",
+              "type": "VirtualMachine",
+              "value": "vm-349"
+            },
+            {
+              "name": "workload_vm_465",
+              "type": "VirtualMachine",
+              "value": "vm-594"
+            },
+            {
+              "name": "workload_vm_130",
+              "type": "VirtualMachine",
+              "value": "vm-259"
+            },
+            {
+              "name": "workload_vm_196",
+              "type": "VirtualMachine",
+              "value": "vm-325"
+            },
+            {
+              "name": "workload_vm_483",
+              "type": "VirtualMachine",
+              "value": "vm-612"
+            },
+            {
+              "name": "workload_vm_458",
+              "type": "VirtualMachine",
+              "value": "vm-587"
+            },
+            {
+              "name": "workload_vm_244",
+              "type": "VirtualMachine",
+              "value": "vm-373"
+            },
+            {
+              "name": "workload_vm_180",
+              "type": "VirtualMachine",
+              "value": "vm-309"
+            },
+            {
+              "name": "workload_vm_389",
+              "type": "VirtualMachine",
+              "value": "vm-518"
+            },
+            {
+              "name": "workload_vm_283",
+              "type": "VirtualMachine",
+              "value": "vm-412"
+            },
+            {
+              "name": "workload_vm_184",
+              "type": "VirtualMachine",
+              "value": "vm-313"
+            },
+            {
+              "name": "workload_vm_420",
+              "type": "VirtualMachine",
+              "value": "vm-549"
+            },
+            {
+              "name": "workload_vm_58",
+              "type": "VirtualMachine",
+              "value": "vm-185"
+            },
+            {
+              "name": "workload_vm_108",
+              "type": "VirtualMachine",
+              "value": "vm-237"
+            },
+            {
+              "name": "workload_vm_463",
+              "type": "VirtualMachine",
+              "value": "vm-592"
+            },
+            {
+              "name": "workload_vm_77",
+              "type": "VirtualMachine",
+              "value": "vm-204"
+            },
+            {
+              "name": "workload_vm_135",
+              "type": "VirtualMachine",
+              "value": "vm-264"
+            },
+            {
+              "name": "workload_vm_445",
+              "type": "VirtualMachine",
+              "value": "vm-574"
+            },
+            {
+              "name": "workload_vm_174",
+              "type": "VirtualMachine",
+              "value": "vm-303"
+            },
+            {
+              "name": "workload_vm_18",
+              "type": "VirtualMachine",
+              "value": "vm-145"
+            },
+            {
+              "name": "workload_vm_308",
+              "type": "VirtualMachine",
+              "value": "vm-437"
+            },
+            {
+              "name": "workload_vm_480",
+              "type": "VirtualMachine",
+              "value": "vm-609"
+            },
+            {
+              "name": "workload_vm_392",
+              "type": "VirtualMachine",
+              "value": "vm-521"
+            },
+            {
+              "name": "workload_vm_159",
+              "type": "VirtualMachine",
+              "value": "vm-288"
+            },
+            {
+              "name": "workload_vm_25",
+              "type": "VirtualMachine",
+              "value": "vm-152"
+            },
+            {
+              "name": "workload_vm_67",
+              "type": "VirtualMachine",
+              "value": "vm-194"
+            },
+            {
+              "name": "workload_vm_294",
+              "type": "VirtualMachine",
+              "value": "vm-423"
+            },
+            {
+              "name": "workload_vm_435",
+              "type": "VirtualMachine",
+              "value": "vm-564"
+            },
+            {
+              "name": "workload_vm_328",
+              "type": "VirtualMachine",
+              "value": "vm-457"
+            },
+            {
+              "name": "workload_vm_183",
+              "type": "VirtualMachine",
+              "value": "vm-312"
+            },
+            {
+              "name": "workload_vm_395",
+              "type": "VirtualMachine",
+              "value": "vm-524"
+            },
+            {
+              "name": "workload_vm_12",
+              "type": "VirtualMachine",
+              "value": "vm-139"
+            },
+            {
+              "name": "workload_vm_356",
+              "type": "VirtualMachine",
+              "value": "vm-485"
+            },
+            {
+              "name": "workload_vm_394",
+              "type": "VirtualMachine",
+              "value": "vm-523"
+            },
+            {
+              "name": "workload_vm_191",
+              "type": "VirtualMachine",
+              "value": "vm-320"
+            },
+            {
+              "name": "workload_vm_372",
+              "type": "VirtualMachine",
+              "value": "vm-501"
+            },
+            {
+              "name": "workload_vm_66",
+              "type": "VirtualMachine",
+              "value": "vm-193"
+            },
+            {
+              "name": "workload_vm_170",
+              "type": "VirtualMachine",
+              "value": "vm-299"
+            },
+            {
+              "name": "workload_vm_481",
+              "type": "VirtualMachine",
+              "value": "vm-610"
+            },
+            {
+              "name": "workload_vm_80",
+              "type": "VirtualMachine",
+              "value": "vm-207"
+            },
+            {
+              "name": "workload_vm_138",
+              "type": "VirtualMachine",
+              "value": "vm-267"
+            },
+            {
+              "name": "workload_vm_20",
+              "type": "VirtualMachine",
+              "value": "vm-147"
+            },
+            {
+              "name": "workload_vm_2",
+              "type": "VirtualMachine",
+              "value": "vm-129"
+            },
+            {
+              "name": "workload_vm_433",
+              "type": "VirtualMachine",
+              "value": "vm-562"
+            },
+            {
+              "name": "workload_vm_284",
+              "type": "VirtualMachine",
+              "value": "vm-413"
+            },
+            {
+              "name": "workload_vm_380",
+              "type": "VirtualMachine",
+              "value": "vm-509"
+            },
+            {
+              "name": "workload_vm_169",
+              "type": "VirtualMachine",
+              "value": "vm-298"
+            },
+            {
+              "name": "workload_vm_73",
+              "type": "VirtualMachine",
+              "value": "vm-200"
+            },
+            {
+              "name": "workload_vm_274",
+              "type": "VirtualMachine",
+              "value": "vm-403"
+            },
+            {
+              "name": "workload_vm_319",
+              "type": "VirtualMachine",
+              "value": "vm-448"
+            },
+            {
+              "name": "workload_vm_193",
+              "type": "VirtualMachine",
+              "value": "vm-322"
+            },
+            {
+              "name": "workload_vm_475",
+              "type": "VirtualMachine",
+              "value": "vm-604"
+            },
+            {
+              "name": "workload_vm_400",
+              "type": "VirtualMachine",
+              "value": "vm-529"
+            },
+            {
+              "name": "workload_vm_403",
+              "type": "VirtualMachine",
+              "value": "vm-532"
+            },
+            {
+              "name": "workload_vm_187",
+              "type": "VirtualMachine",
+              "value": "vm-316"
+            },
+            {
+              "name": "workload_vm_161",
+              "type": "VirtualMachine",
+              "value": "vm-290"
+            },
+            {
+              "name": "workload_vm_64",
+              "type": "VirtualMachine",
+              "value": "vm-191"
+            },
+            {
+              "name": "workload_vm_289",
+              "type": "VirtualMachine",
+              "value": "vm-418"
+            },
+            {
+              "name": "workload_vm_293",
+              "type": "VirtualMachine",
+              "value": "vm-422"
+            },
+            {
+              "name": "workload_vm_128",
+              "type": "VirtualMachine",
+              "value": "vm-257"
+            },
+            {
+              "name": "workload_vm_423",
+              "type": "VirtualMachine",
+              "value": "vm-552"
+            },
+            {
+              "name": "workload_vm_495",
+              "type": "VirtualMachine",
+              "value": "vm-624"
+            },
+            {
+              "name": "workload_vm_151",
+              "type": "VirtualMachine",
+              "value": "vm-280"
+            },
+            {
+              "name": "workload_vm_131",
+              "type": "VirtualMachine",
+              "value": "vm-260"
+            },
+            {
+              "name": "workload_vm_424",
+              "type": "VirtualMachine",
+              "value": "vm-553"
+            },
+            {
+              "name": "workload_vm_325",
+              "type": "VirtualMachine",
+              "value": "vm-454"
+            },
+            {
+              "name": "workload_vm_327",
+              "type": "VirtualMachine",
+              "value": "vm-456"
+            },
+            {
+              "name": "workload_vm_5",
+              "type": "VirtualMachine",
+              "value": "vm-132"
+            },
+            {
+              "name": "workload_vm_137",
+              "type": "VirtualMachine",
+              "value": "vm-266"
+            },
+            {
+              "name": "workload_vm_201",
+              "type": "VirtualMachine",
+              "value": "vm-330"
+            },
+            {
+              "name": "workload_vm_456",
+              "type": "VirtualMachine",
+              "value": "vm-585"
+            },
+            {
+              "name": "workload_vm_15",
+              "type": "VirtualMachine",
+              "value": "vm-142"
+            },
+            {
+              "name": "workload_vm_262",
+              "type": "VirtualMachine",
+              "value": "vm-391"
+            },
+            {
+              "name": "workload_vm_7",
+              "type": "VirtualMachine",
+              "value": "vm-134"
+            },
+            {
+              "name": "workload_vm_477",
+              "type": "VirtualMachine",
+              "value": "vm-606"
+            },
+            {
+              "name": "workload_vm_349",
+              "type": "VirtualMachine",
+              "value": "vm-478"
+            },
+            {
+              "name": "workload_vm_179",
+              "type": "VirtualMachine",
+              "value": "vm-308"
+            },
+            {
+              "name": "workload_vm_447",
+              "type": "VirtualMachine",
+              "value": "vm-576"
+            },
+            {
+              "name": "workload_vm_388",
+              "type": "VirtualMachine",
+              "value": "vm-517"
+            },
+            {
+              "name": "workload_vm_120",
+              "type": "VirtualMachine",
+              "value": "vm-249"
+            },
+            {
+              "name": "workload_vm_133",
+              "type": "VirtualMachine",
+              "value": "vm-262"
+            },
+            {
+              "name": "workload_vm_105",
+              "type": "VirtualMachine",
+              "value": "vm-234"
+            },
+            {
+              "name": "workload_vm_415",
+              "type": "VirtualMachine",
+              "value": "vm-544"
+            },
+            {
+              "name": "workload_vm_231",
+              "type": "VirtualMachine",
+              "value": "vm-360"
+            },
+            {
+              "name": "stCtlVM-0123456789 (3)",
+              "type": "VirtualMachine",
+              "value": "vm-97"
+            },
+            {
+              "name": "workload_vm_290",
+              "type": "VirtualMachine",
+              "value": "vm-419"
+            },
+            {
+              "name": "workload_vm_223",
+              "type": "VirtualMachine",
+              "value": "vm-352"
+            },
+            {
+              "name": "workload_vm_332",
+              "type": "VirtualMachine",
+              "value": "vm-461"
+            },
+            {
+              "name": "workload_vm_95",
+              "type": "VirtualMachine",
+              "value": "vm-222"
+            },
+            {
+              "name": "workload_vm_79",
+              "type": "VirtualMachine",
+              "value": "vm-206"
+            },
+            {
+              "name": "workload_vm_200",
+              "type": "VirtualMachine",
+              "value": "vm-329"
+            },
+            {
+              "name": "workload_vm_276",
+              "type": "VirtualMachine",
+              "value": "vm-405"
+            },
+            {
+              "name": "workload_vm_292",
+              "type": "VirtualMachine",
+              "value": "vm-421"
+            },
+            {
+              "name": "workload_vm_313",
+              "type": "VirtualMachine",
+              "value": "vm-442"
+            },
+            {
+              "name": "workload_vm_32",
+              "type": "VirtualMachine",
+              "value": "vm-159"
+            },
+            {
+              "name": "workload_vm_33",
+              "type": "VirtualMachine",
+              "value": "vm-160"
+            },
+            {
+              "name": "workload_vm_47",
+              "type": "VirtualMachine",
+              "value": "vm-174"
+            },
+            {
+              "name": "workload_vm_235",
+              "type": "VirtualMachine",
+              "value": "vm-364"
+            },
+            {
+              "name": "workload_vm_91",
+              "type": "VirtualMachine",
+              "value": "vm-218"
+            },
+            {
+              "name": "workload_vm_236",
+              "type": "VirtualMachine",
+              "value": "vm-365"
+            },
+            {
+              "name": "workload_vm_83",
+              "type": "VirtualMachine",
+              "value": "vm-210"
+            },
+            {
+              "name": "workload_vm_245",
+              "type": "VirtualMachine",
+              "value": "vm-374"
+            },
+            {
+              "name": "workload_vm_37",
+              "type": "VirtualMachine",
+              "value": "vm-164"
+            },
+            {
+              "name": "workload_vm_30",
+              "type": "VirtualMachine",
+              "value": "vm-157"
+            },
+            {
+              "name": "workload_vm_156",
+              "type": "VirtualMachine",
+              "value": "vm-285"
+            },
+            {
+              "name": "workload_vm_114",
+              "type": "VirtualMachine",
+              "value": "vm-243"
+            },
+            {
+              "name": "workload_vm_355",
+              "type": "VirtualMachine",
+              "value": "vm-484"
+            },
+            {
+              "name": "workload_vm_272",
+              "type": "VirtualMachine",
+              "value": "vm-401"
+            },
+            {
+              "name": "workload_vm_27",
+              "type": "VirtualMachine",
+              "value": "vm-154"
+            },
+            {
+              "name": "workload_vm_453",
+              "type": "VirtualMachine",
+              "value": "vm-582"
+            },
+            {
+              "name": "workload_vm_257",
+              "type": "VirtualMachine",
+              "value": "vm-386"
+            },
+            {
+              "name": "workload_vm_250",
+              "type": "VirtualMachine",
+              "value": "vm-379"
+            },
+            {
+              "name": "workload_vm_35",
+              "type": "VirtualMachine",
+              "value": "vm-162"
+            },
+            {
+              "name": "workload_vm_122",
+              "type": "VirtualMachine",
+              "value": "vm-251"
+            },
+            {
+              "name": "workload_vm_167",
+              "type": "VirtualMachine",
+              "value": "vm-296"
+            },
+            {
+              "name": "workload_vm_152",
+              "type": "VirtualMachine",
+              "value": "vm-281"
+            },
+            {
+              "name": "workload_vm_266",
+              "type": "VirtualMachine",
+              "value": "vm-395"
+            },
+            {
+              "name": "workload_vm_364",
+              "type": "VirtualMachine",
+              "value": "vm-493"
+            },
+            {
+              "name": "workload_vm_238",
+              "type": "VirtualMachine",
+              "value": "vm-367"
+            },
+            {
+              "name": "workload_vm_42",
+              "type": "VirtualMachine",
+              "value": "vm-169"
+            },
+            {
+              "name": "workload_vm_92",
+              "type": "VirtualMachine",
+              "value": "vm-219"
+            },
+            {
+              "name": "workload_vm_121",
+              "type": "VirtualMachine",
+              "value": "vm-250"
+            },
+            {
+              "name": "workload_vm_140",
+              "type": "VirtualMachine",
+              "value": "vm-269"
+            },
+            {
+              "name": "workload_vm_94",
+              "type": "VirtualMachine",
+              "value": "vm-221"
+            },
+            {
+              "name": "workload_vm_75",
+              "type": "VirtualMachine",
+              "value": "vm-202"
+            },
+            {
+              "name": "workload_vm_176",
+              "type": "VirtualMachine",
+              "value": "vm-305"
+            },
+            {
+              "name": "workload_vm_62",
+              "type": "VirtualMachine",
+              "value": "vm-189"
+            },
+            {
+              "name": "workload_vm_460",
+              "type": "VirtualMachine",
+              "value": "vm-589"
+            },
+            {
+              "name": "workload_vm_396",
+              "type": "VirtualMachine",
+              "value": "vm-525"
+            },
+            {
+              "name": "workload_vm_399",
+              "type": "VirtualMachine",
+              "value": "vm-528"
+            },
+            {
+              "name": "workload_vm_368",
+              "type": "VirtualMachine",
+              "value": "vm-497"
+            },
+            {
+              "name": "workload_vm_253",
+              "type": "VirtualMachine",
+              "value": "vm-382"
+            },
+            {
+              "name": "workload_vm_259",
+              "type": "VirtualMachine",
+              "value": "vm-388"
+            },
+            {
+              "name": "workload_vm_258",
+              "type": "VirtualMachine",
+              "value": "vm-387"
+            },
+            {
+              "name": "workload_vm_68",
+              "type": "VirtualMachine",
+              "value": "vm-195"
+            },
+            {
+              "name": "workload_vm_226",
+              "type": "VirtualMachine",
+              "value": "vm-355"
+            },
+            {
+              "name": "workload_vm_486",
+              "type": "VirtualMachine",
+              "value": "vm-615"
+            },
+            {
+              "name": "workload_vm_452",
+              "type": "VirtualMachine",
+              "value": "vm-581"
+            },
+            {
+              "name": "workload_vm_280",
+              "type": "VirtualMachine",
+              "value": "vm-409"
+            },
+            {
+              "name": "workload_vm_307",
+              "type": "VirtualMachine",
+              "value": "vm-436"
+            },
+            {
+              "name": "workload_vm_177",
+              "type": "VirtualMachine",
+              "value": "vm-306"
+            },
+            {
+              "name": "workload_vm_492",
+              "type": "VirtualMachine",
+              "value": "vm-621"
+            },
+            {
+              "name": "workload_vm_147",
+              "type": "VirtualMachine",
+              "value": "vm-276"
+            },
+            {
+              "name": "workload_vm_207",
+              "type": "VirtualMachine",
+              "value": "vm-336"
+            },
+            {
+              "name": "workload_vm_113",
+              "type": "VirtualMachine",
+              "value": "vm-242"
+            },
+            {
+              "name": "workload_vm_34",
+              "type": "VirtualMachine",
+              "value": "vm-161"
+            },
+            {
+              "name": "workload_vm_171",
+              "type": "VirtualMachine",
+              "value": "vm-300"
+            },
+            {
+              "name": "workload_vm_252",
+              "type": "VirtualMachine",
+              "value": "vm-381"
+            },
+            {
+              "name": "workload_vm_419",
+              "type": "VirtualMachine",
+              "value": "vm-548"
+            },
+            {
+              "name": "workload_vm_249",
+              "type": "VirtualMachine",
+              "value": "vm-378"
+            },
+            {
+              "name": "workload_vm_19",
+              "type": "VirtualMachine",
+              "value": "vm-146"
+            },
+            {
+              "name": "workload_vm_87",
+              "type": "VirtualMachine",
+              "value": "vm-214"
+            },
+            {
+              "name": "workload_vm_89",
+              "type": "VirtualMachine",
+              "value": "vm-216"
+            },
+            {
+              "name": "workload_vm_451",
+              "type": "VirtualMachine",
+              "value": "vm-580"
+            },
+            {
+              "name": "workload_vm_288",
+              "type": "VirtualMachine",
+              "value": "vm-417"
+            },
+            {
+              "name": "workload_vm_166",
+              "type": "VirtualMachine",
+              "value": "vm-295"
+            },
+            {
+              "name": "workload_vm_205",
+              "type": "VirtualMachine",
+              "value": "vm-334"
+            },
+            {
+              "name": "workload_vm_462",
+              "type": "VirtualMachine",
+              "value": "vm-591"
+            }
+          ],
+          "hosts": [
+            {
+              "name": "cs-002c.eng.vaibhav.com",
+              "type": "HostSystem",
+              "value": "host-86"
+            },
+            {
+              "name": "cs-002b.eng.vaibhav.com",
+              "type": "HostSystem",
+              "value": "host-87"
+            },
+            {
+              "name": "cs-002a.eng.vaibhav.com",
+              "type": "HostSystem",
+              "value": "host-88"
+            },
+            {
+              "name": "cs-002d.eng.vaibhav.com",
+              "type": "HostSystem",
+              "value": "host-89"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

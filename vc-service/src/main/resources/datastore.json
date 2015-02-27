@@ -1,0 +1,83 @@
+[
+  {
+    "name": "vaibhavDS_0123456789 (1)",
+    "accessible": "true",
+    "capacity": 23890755584,
+    "freeSpace": 19244515328,
+    "ds_type": "VMFS",
+    "type": "Datastore",
+    "moid": "datastore-91"
+  },
+  {
+    "name": "vaibhavDS_0123456789 (2)",
+    "accessible": "true",
+    "capacity": 23890755584,
+    "freeSpace": 19673382912,
+    "ds_type": "VMFS",
+    "type": "Datastore",
+    "moid": "datastore-92"
+  },
+  {
+    "name": "demo_ds_2",
+    "accessible": "true",
+    "capacity": 107374182400,
+    "freeSpace": 107374182400,
+    "ds_type": "NFS",
+    "type": "Datastore",
+    "moid": "datastore-227"
+  },
+  {
+    "name": "vaibhavDS_0123456789 (3)",
+    "accessible": "true",
+    "capacity": 23890755584,
+    "freeSpace": 19814940672,
+    "ds_type": "VMFS",
+    "type": "Datastore",
+    "moid": "datastore-99"
+  },
+  {
+    "name": "demo_ds_3",
+    "accessible": "true",
+    "capacity": 107374182400,
+    "freeSpace": 107374182400,
+    "ds_type": "NFS",
+    "type": "Datastore",
+    "moid": "datastore-228"
+  },
+  {
+    "name": "testds",
+    "accessible": "false",
+    "capacity": 107374182400,
+    "freeSpace": 107374182400,
+    "ds_type": "NFS",
+    "type": "Datastore",
+    "moid": "datastore-90"
+  },
+  {
+    "name": "Test_DS_1",
+    "accessible": "true",
+    "capacity": 10737418240,
+    "freeSpace": 10737418240,
+    "ds_type": "NFS",
+    "type": "Datastore",
+    "moid": "datastore-630"
+  },
+  {
+    "name": "vaibhavDS_0123456789",
+    "accessible": "true",
+    "capacity": 23890755584,
+    "freeSpace": 18226348032,
+    "ds_type": "VMFS",
+    "type": "Datastore",
+    "moid": "datastore-98"
+  },
+  {
+    "name": "demo_ds1",
+    "accessible": "true",
+    "capacity": 1073741824000,
+    "freeSpace": 1064432283648,
+    "ds_type": "NFS",
+    "type": "Datastore",
+    "moid": "datastore-103"
+  }
+]
