@@ -11,7 +11,7 @@ public class DatastoreDTO {
 	private String ds_type;
 	private String url;
 	private String type;
-	private String modid;
+	private String moid;
 	public String getName() {
 		return name;
 	}
@@ -55,10 +55,10 @@ public class DatastoreDTO {
 		this.type = type;
 	}
 	public String getModid() {
-		return modid;
+		return moid;
 	}
 	public void setModid(String modid) {
-		this.modid = modid;
+		this.moid = modid;
 	}
 	
 	

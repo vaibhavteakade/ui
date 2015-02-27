@@ -18,10 +18,8 @@ public class VimService {
 				        Constants.VC_URL), Constants.VC_UNAME, Constants.VC_PASS,
 				        true);
 			} catch (RemoteException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (MalformedURLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}

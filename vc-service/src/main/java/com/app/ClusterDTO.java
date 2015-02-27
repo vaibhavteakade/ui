@@ -16,6 +16,7 @@ public class ClusterDTO {
 	private ArrayList<DatastoreDTO> datastores = new ArrayList<DatastoreDTO>();
 	private ArrayList<HostDTO> hosts = new ArrayList<HostDTO>();
 	private ArrayList<VimDTO> vms = new ArrayList<VimDTO>();
+	
 	public String getType() {
 		return type;
 	}
