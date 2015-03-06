@@ -41,7 +41,7 @@ public class CacheManager {
 	private GsonBuilder builder;
 	private String jsonStr;
 	private static Logger logger = Logger.getLogger(CacheManager.class);
-	public static String dataRoot = "D:\\tutorials\\trunck\\ui\\vc-service\\src\\main\\resources";
+	public static String dataRoot = "D:\\vaibhav_projects\\angular_examples\\ui\\vc-service\\src\\main\\resources";
 	/**
 	 * Virtual Machine cache
 	 */
