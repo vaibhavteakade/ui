@@ -293,5 +293,9 @@ public class Utility {
     }
     return dto;
   }
+  
+  public static String cleanParam(String param){
+	  return param.replace(':', ' ').trim();
+  }
 
 }

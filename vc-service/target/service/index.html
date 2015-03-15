@@ -1,79 +1,95 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<title>App</title>
+<!DOCTYPE html>
+<html ng-app="vcApp">
 <head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.css" />
+<link rel="stylesheet" type="text/css" href="css/ng-grid.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css" />
+
+
+
+<style type="text/css">
+.nav,.pagination,.carousel,.panel-title a {
+	cursor: pointer;
+}
+
+body {
+	background-color: #eef;
+}
+
+#tabs {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+</style>
 </head>
-<body>
+<body style="width: 100%; height: 100%">
 
-<table id="example" class="display" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-                <th>title</th>
-                <th>singer</th>
-            </tr>
-        </thead>
- 
-        <tfoot>
-            <tr>
-                <th>title</th>
-                <th>singer</th>
-            </tr>
-        </tfoot>
-    </table>
+	<!-- header constainer -->
+	<nav role="navigation" class="navbar navbar-inverse">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" data-target="#navbarCollapse"
+				data-toggle="collapse" class="navbar-toggle">
+				<span class="sr-only">Toggle navigation</span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">Brand</a>
+		</div>
+		<!-- Collection of nav links, forms, and other content for toggling -->
+		<div id="navbarCollapse" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#/dashboard">Dashboard</a></li>
+				<li><a href="#/virtualmachine">Inventory</a></li>
+				<li class="dropdown"><a data-toggle="dropdown"
+					class="dropdown-toggle" href="#">Setting <b class="caret"></b></a>
+					<ul role="menu" class="dropdown-menu">
+						<li class="divider"></li>
+						<li><a href="#">{{logged}}</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Trash</a></li>
+					</ul></li>
+			</ul>
 
-<div id="resultDivContainer"></div>
+			<form role="search" class="navbar-form navbar-left">
+				<div class="form-group">
+					<input type="text" placeholder="Search" class="form-control">
+				</div>
+			</form>
 
-<button type="button" onclick="JSONTest()">JSON</button>
+		</div>
+	</nav>
 
+	<!-- Views -->
+	<div ng-view style="width:100%;height:100%;"></div>
+	
 </body>
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="http://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript">
+<!-- jquery js -->
+<script src="lib/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="lib/jquery-ui.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/angular/angular.min.js"></script>
+<script type="text/javascript" src="lib/angular/angular-route.min.js"></script>
+<script type="text/javascript" src="lib/ng-grid-2.0.14.min.js"></script>
+<script src="lib/canvasjs.min.js"></script>
+<script type="text/javascript" src="lib/angular/ui-bootstrap.min.js"></script>
 
-$(document).ready(function() {
-    $('#example').dataTable( {
-        "processing": true,
-        "serverSide": true,
-        "ajax": "http://localhost:8080/service/rest/json/track/get"
-    } );
-} );
-
-
-JSONTest = function() {
-
-    var resultDiv = $("#resultDivContainer");
-    var data = new Object();
-    data.title = "Vaibahv";
-    data.singer = "tekade";
-    $.ajax({
-        headers: { 
-            'Accept': 'application/json',
-            'Content-Type': 'application/json' 
-        },
-        'type': 'GET',
-        'url': 'http://localhost:8080/service/rest/json/track/get',
-        'data': JSON.stringify(data),
-        'dataType': 'json',        
-        success: function (result) {
-            switch (result) {
-                case true:
-                	var json = $.parseJSON(result); // create an object with the key of the array
-                	alert(json.html);
-                    break;
-                default:
-                	var json = JSON.stringify(result);
-                	alert(data);
-                	
-            }
-        },
-        error: function (xhr, ajaxOptions, thrownError) {
-        alert(xhr.status);
-        alert(thrownError);
-        }
-    });
-};
-
-</script>
-
-</html> 
+<!-- app js files -->
+<script src="js/app.js"></script> 
+ <script src="js/controllers/dashboardController.js"></script>
+ <script src="js/controllers/vimController.js"></script>
+ <script src="js/controllers/dcController.js"></script>
+ <script src="js/controllers/clusterController.js"></script>
+ <script src="js/controllers/hostController.js"></script>
+ <script src="js/controllers/dsController.js"></script>
+ <script src="js/controllers/dcdController.js"></script>
+</html>

@@ -30,6 +30,21 @@ public class AppData {
 	}
 	
 	@GET
+	@Path("/dc/{value}")
+	public String seDcd(@PathParam("value")String value){
+		Gson gson = new Gson();
+		value = Utility.cleanParam(value);
+		CacheManager manager = CacheManager.getInstance();
+		List<DatacenterDTO> dcs = manager.getAllDC();
+		DatacenterDTO dto = new DatacenterDTO();
+		for (DatacenterDTO datacenterDTO : dcs) {
+			if(datacenterDTO.getMoid().equalsIgnoreCase(value))
+				dto = datacenterDTO;
+		}
+		return gson.toJson(dto);
+	}
+	
+	@GET
 	@Path("/vms")
 	public String getVms(){
 		Gson gson = new Gson();
@@ -83,8 +98,15 @@ public class AppData {
 		return gson.toJson(llist);
 	}
 	
-	public static void main(String[] args){
-		AppData appData = new AppData();
-		System.out.println(appData.getVms());
+	@GET
+	@Path("/count")
+	public String getVcCount(){
+		Gson gson = new Gson();
+		return gson.toJson(CacheManager.getInstance().getObjectCount());
 	}
+	
+//	public static void main(String[] args){
+//		AppData appData = new AppData();
+//		System.out.println(appData.getVms());
+//	}
 }

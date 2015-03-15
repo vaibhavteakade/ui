@@ -15,6 +15,7 @@ import com.app.ClusterDTO;
 import com.app.DatacenterDTO;
 import com.app.DatastoreDTO;
 import com.app.HostDTO;
+import com.app.VcCount;
 import com.app.VimDTO;
 import com.app.vim.VimService;
 import com.google.common.cache.CacheBuilder;
@@ -61,11 +62,11 @@ public class CacheManager {
 	private CacheManager() {
 		logger.info("initializing CacheManager");
 		initCacheLoader();
-		// loadDC();
-		// loadCluster();
-		// loadHost();
-		// loadDatastore();
-		// loadVim();
+		 loadDC();
+		 loadCluster();
+		 loadHost();
+		 loadDatastore();
+		 loadVim();
 		logger.info("CacheManager initialized");
 	}
 
@@ -456,5 +457,16 @@ public class CacheManager {
 			list.add(entry.getValue());
 		}
 		return list;
+	}
+	//
+	public VcCount getObjectCount(){
+		VcCount count = new VcCount();
+		count.setDcCount(getAllDC().size());
+		count.setcCount(getAllCluster().size());
+		count.setHostCount(getAllHost().size());
+		count.setDsCount(getAllDatastore().size());
+		count.setVmCount(getAllVm().size());
+		return count;
+		
 	}
 }

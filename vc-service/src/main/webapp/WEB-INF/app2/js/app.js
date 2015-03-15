@@ -1,5 +1,5 @@
-var app = angular.module('myApp', ['ng-Grid']);
-app.controller('MyCtrl', function($scope) {
+var myApp = angular.module('myApp', ['ng-Grid']);
+myApp.controller('MyCtrl', function($scope) {
     $scope.myData = [{name: "Moroni", age: 50},
                      {name: "Tiancum", age: 43},
                      {name: "Jacob", age: 27},
