@@ -12,7 +12,7 @@ hostController.$inject = ['$scope','$http','vcService'];
 function hostController($scope,$http,vcService) {
 	
 	$scope.vcCount = null;
-
+	 $scope.totalServerItems = 0;
 	vcService.count(function(vcService) {
 		$scope.vcCount = vcService;
 	});
@@ -22,6 +22,7 @@ function hostController($scope,$http,vcService) {
 	$http.get('http://localhost:8080/service/rest/appData/host')
 	.success(function(data) {
 	  $scope.myData = data;
+	  $scope.totalServerItems = data.length;
 	})
 	.error(function(data, status) {
 	  console.error('Repos error', status, data);
@@ -29,11 +30,22 @@ function hostController($scope,$http,vcService) {
 	
 	$scope.gridOptions = {
 		data : 'myData',
+		showFooter: true,
+        totalServerItems: 'totalServerItems',
 		columnDefs: [{field:'name', displayName:'Name'},
 		{field:'iscsiSupported', displayName:'Iscsi Supported'},
 		{field:'bootTime', displayName:'Boot Time'},
 		{field:'powerState', displayName:'Power State'},
 		{field:'connectionState', displayName:'Connection State'}]
 	};
+	
+	$scope.getTableStyle= function() {
+            var marginHeight = 20; // optional
+			var maxHeight = screen.height - 250;
+           return {
+                /* height: (10 * $scope.gridOptions.rowHeight + $scope.gridOptions.headerRowHeight + marginHeight ) + "px" */
+				height : maxHeight
+			};
+        };
 }
 

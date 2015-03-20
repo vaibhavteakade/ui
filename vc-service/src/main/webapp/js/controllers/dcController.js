@@ -3,7 +3,15 @@ angular.module('vcApp')
 
 // We are adding a function called Ctrl1
 // to the module we got in the line above
-.controller('dcController', dcController);
+.controller('dcController', dcController).directive('hboTabs', function() {
+    return {
+        restrict: 'A',
+        link: function(scope, elm, attrs) {
+            var jqueryElm = $(elm[0]);
+            $(jqueryElm).tabs()
+        }
+    };
+});
 
 // Inject my dependencies
 dcController.$inject = ['$scope','$location','$http','vcService'];
@@ -12,7 +20,7 @@ dcController.$inject = ['$scope','$location','$http','vcService'];
 function dcController($scope,$location,$http,vcService) {
 	
 	
-    
+	$scope.totalServerItems = 0;
 	
 	$scope.vcCount = null;
 
@@ -42,6 +50,7 @@ function dcController($scope,$location,$http,vcService) {
 		     
 		}
 	  $scope.myData = dcData;
+	  $scope.totalServerItems = data.length;
 	})
 	.error(function(data, status) {
 	  console.error('Repos error', status, data);
@@ -49,6 +58,8 @@ function dcController($scope,$location,$http,vcService) {
 	
 	$scope.gridOptions = {
 		data : 'myData',
+		showFooter: true,
+        totalServerItems: 'totalServerItems',
 		selectedItems: $scope.selectedI,
 	     multiSelect: false,
 		rowTemplate: '<div ng-dblclick="onDblClickRow(row)" ng-style="{ \’cursor\’: row.cursor }" ng-repeat="col in renderedColumns" ng-class="col.colIndex()" class="ngCell {{col.cellClass}}"><div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }">&nbsp;</div><div ng-cell></div></div>',
@@ -62,4 +73,13 @@ function dcController($scope,$location,$http,vcService) {
 		 //alert($scope.selectedI[0].moid);
 		  $location.path( '/dc/:' + $scope.selectedI[0].moid );
 	    };
+		
+		$scope.getTableStyle= function() {
+            var marginHeight = 20; // optional
+			var maxHeight = screen.height - 250;
+           return {
+                /* height: (10 * $scope.gridOptions.rowHeight + $scope.gridOptions.headerRowHeight + marginHeight ) + "px" */
+				height : maxHeight
+			};
+        };
 }

@@ -1,7 +1,6 @@
-var app = angular.module('vcApp', [ 'ngRoute', 'ngGrid' ]);
+var app = angular.module('vcApp', [ 'ngRoute', 'ngGrid','ngTable' ]);
 app.config(function($routeProvider,$locationProvider) {
 	$routeProvider.when("/dashboard", {
-
 		templateUrl : "partials/dashboard.html",
 		controller : "DashBoardController"
 	}).when("/virtualmachine", {
@@ -23,10 +22,27 @@ app.config(function($routeProvider,$locationProvider) {
 		templateUrl : "partials/details/dcd.html",
 		controller : "dcdController"
 	})
+	.when("/login", {
+		templateUrl : "partials/login.html",
+		controller : "loginController"
+	})
 	.otherwise({
 		redirectTo : "/dashboard"
 	});
-});
+})
+
+.run(function($rootScope, $location) {
+
+    $rootScope.$on( "$routeChangeStart", function(event, next, current) {
+      if ($rootScope.loggedInUser == null) {
+        // no logged user, redirect to /login
+        if ( next.templateUrl === "partials/login.html") {
+        } else {
+          $location.path("/login");
+        }
+      }
+    });
+  });
 
 app.factory('vcService', function($http) {
 	return {
@@ -35,4 +51,23 @@ app.factory('vcService', function($http) {
 					.success(callback);
 		}
 	};
+});
+
+app.factory('userService', function($rootScope){
+  var service = {};
+  service.vcUrl = "";
+  service.user = "";
+  
+
+  service.updatevcUrl = function(value){
+    this.vcUrl = value;
+    $rootScope.$broadcast("valuesUpdated");
+  }
+
+  service.updateuser = function(value){
+    this.user = value;
+    $rootScope.$broadcast("valuesUpdated");
+  }
+
+  return service;
 });

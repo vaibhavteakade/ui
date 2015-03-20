@@ -42,7 +42,7 @@ public class CacheManager {
 	private GsonBuilder builder;
 	private String jsonStr;
 	private static Logger logger = Logger.getLogger(CacheManager.class);
-	public static String dataRoot = "D:\\vaibhav_projects\\angular_examples\\ui\\vc-service\\src\\main\\resources";
+	public static String dataRoot = "D:\\tutorials\\trunck\\ui\\vc-service\\src\\main\\resources";
 	/**
 	 * Virtual Machine cache
 	 */
@@ -52,14 +52,25 @@ public class CacheManager {
 	private LoadingCache<String, ClusterDTO> clusterCache = null;
 	private LoadingCache<String, DatacenterDTO> datacenterCache = null;
 
-	public static CacheManager getInstance() {
+	public static CacheManager getInstance() throws Exception {
 		if (manager == null) {
 			manager = new CacheManager();
 		}
 		return manager;
 	}
+	
+	public void resetCache(){
+		logger.info("Resetting CacheManager Start");
+		datacenterCache.invalidateAll();
+		clusterCache.invalidateAll();
+		HostCache.invalidateAll();
+		datastoreCache.invalidateAll();
+		vimCache.invalidateAll();
+		logger.info("Resetting CacheManager End");
+		
+	}
 
-	private CacheManager() {
+	private CacheManager() throws Exception {
 		logger.info("initializing CacheManager");
 		initCacheLoader();
 		 loadDC();
@@ -83,8 +94,9 @@ public class CacheManager {
 						VimDTO d = null;
 						try {
 							d = getVM();
-						} catch (ExecutionException e1) {
-							e1.printStackTrace();
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
 						}
 					}
 				}).build(new CacheLoader<String, VimDTO>() {
@@ -108,6 +120,9 @@ public class CacheManager {
 							d = getDC();
 						} catch (ExecutionException e1) {
 							e1.printStackTrace();
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
 						}
 					}
 				}).build(new CacheLoader<String, DatacenterDTO>() {
@@ -127,8 +142,9 @@ public class CacheManager {
 						ClusterDTO d = null;
 						try {
 							d = getCluster();
-						} catch (ExecutionException e1) {
-							e1.printStackTrace();
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
 						}
 					}
 				}).build(new CacheLoader<String, ClusterDTO>() {
@@ -149,8 +165,9 @@ public class CacheManager {
 						HostDTO d = null;
 						try {
 							d = getHost();
-						} catch (ExecutionException e1) {
-							e1.printStackTrace();
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
 						}
 					}
 				}).build(new CacheLoader<String, HostDTO>() {
@@ -172,8 +189,9 @@ public class CacheManager {
 						DatastoreDTO d = null;
 						try {
 							d = getdatastore();
-						} catch (ExecutionException e1) {
-							e1.printStackTrace();
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
 						}
 					}
 				}).build(new CacheLoader<String, DatastoreDTO>() {
@@ -187,7 +205,7 @@ public class CacheManager {
 	}
 
 	// //////////// Virtual Machine /////////////////////////////////
-	public VimDTO getVM() throws ExecutionException {
+	public VimDTO getVM() throws Exception {
 		logger.debug("Fetching vm from cache");
 		if (vimCache.asMap().isEmpty())
 			loadVim();
@@ -196,7 +214,7 @@ public class CacheManager {
 	}
 
 	// get all Vm
-	private void loadVim() {
+	private void loadVim() throws Exception {
 		if (Utility.USE_MOCK) {
 			try {
 				Type listType = new TypeToken<ArrayList<VimDTO>>() {
@@ -230,7 +248,7 @@ public class CacheManager {
 		}
 	}
 
-	public List<VimDTO> getAllVm() {
+	public List<VimDTO> getAllVm() throws Exception {
 		List<VimDTO> list = new ArrayList<VimDTO>();
 		if (vimCache.asMap().isEmpty())
 			loadVim();
@@ -241,7 +259,7 @@ public class CacheManager {
 	}
 
 	// //////////// Datacenter /////////////////////////////////
-	public DatacenterDTO getDC() throws ExecutionException {
+	public DatacenterDTO getDC() throws Exception {
 		logger.debug("Fetching DC from cache");
 		if (datacenterCache.asMap().isEmpty())
 			loadDC();
@@ -250,7 +268,7 @@ public class CacheManager {
 	}
 
 	// get all DC
-	private void loadDC() {
+	private void loadDC() throws Exception {
 		if (Utility.USE_MOCK) {
 			try {
 				Type listType = new TypeToken<ArrayList<DatacenterDTO>>() {
@@ -285,7 +303,7 @@ public class CacheManager {
 		}
 	}
 
-	public List<DatacenterDTO> getAllDC() {
+	public List<DatacenterDTO> getAllDC() throws Exception {
 		List<DatacenterDTO> list = new ArrayList<DatacenterDTO>();
 		if (datacenterCache.asMap().isEmpty())
 			loadDC();
@@ -297,7 +315,7 @@ public class CacheManager {
 	}
 
 	// ////////////////////////Cluster//////////////////////////////////////
-	public ClusterDTO getCluster() throws ExecutionException {
+	public ClusterDTO getCluster() throws Exception {
 		logger.debug("Fetching cluster from cache");
 		if (clusterCache.asMap().isEmpty())
 			loadDC();
@@ -305,7 +323,7 @@ public class CacheManager {
 		return clusterCache.get("cluster");
 	}
 
-	private void loadCluster() {
+	private void loadCluster() throws Exception {
 		if (Utility.USE_MOCK) {
 			try {
 				Type listType = new TypeToken<ArrayList<ClusterDTO>>() {
@@ -340,7 +358,7 @@ public class CacheManager {
 		}
 	}
 
-	public List<ClusterDTO> getAllCluster() {
+	public List<ClusterDTO> getAllCluster() throws Exception {
 		List<ClusterDTO> list = new ArrayList<ClusterDTO>();
 		if (clusterCache.asMap().isEmpty())
 			loadCluster();
@@ -353,7 +371,7 @@ public class CacheManager {
 
 	// //////////////////////////Host System
 	// //////////////////////////////////////////
-	public HostDTO getHost() throws ExecutionException {
+	public HostDTO getHost() throws Exception {
 		logger.debug("Fetching host from cache");
 		if (HostCache.asMap().isEmpty())
 			loadHost();
@@ -361,7 +379,7 @@ public class CacheManager {
 		return HostCache.get("host");
 	}
 
-	private void loadHost() {
+	private void loadHost() throws Exception {
 		if (Utility.USE_MOCK) {
 			try {
 				Type listType = new TypeToken<ArrayList<HostDTO>>() {
@@ -395,7 +413,7 @@ public class CacheManager {
 		}
 	}
 
-	public List<HostDTO> getAllHost() {
+	public List<HostDTO> getAllHost() throws Exception {
 		List<HostDTO> list = new ArrayList<HostDTO>();
 		if (HostCache.asMap().isEmpty())
 			loadHost();
@@ -406,7 +424,7 @@ public class CacheManager {
 	}
 
 	// ///////////////////////////Datastore//////////////////////////////////////////////////
-	public DatastoreDTO getdatastore() throws ExecutionException {
+	public DatastoreDTO getdatastore() throws Exception {
 		logger.debug("Fetching datastore from cache");
 		if (datastoreCache.asMap().isEmpty())
 			loadDatastore();
@@ -414,7 +432,7 @@ public class CacheManager {
 		return datastoreCache.get("datastore");
 	}
 
-	private void loadDatastore() {
+	private void loadDatastore() throws Exception {
 		if (Utility.USE_MOCK) {
 			try {
 				Type listType = new TypeToken<ArrayList<DatastoreDTO>>() {
@@ -448,7 +466,7 @@ public class CacheManager {
 		}
 	}
 
-	public List<DatastoreDTO> getAllDatastore() {
+	public List<DatastoreDTO> getAllDatastore() throws Exception {
 		List<DatastoreDTO> list = new ArrayList<DatastoreDTO>();
 		if (datastoreCache.asMap().isEmpty())
 			loadDatastore();
@@ -459,7 +477,7 @@ public class CacheManager {
 		return list;
 	}
 	//
-	public VcCount getObjectCount(){
+	public VcCount getObjectCount() throws Exception{
 		VcCount count = new VcCount();
 		count.setDcCount(getAllDC().size());
 		count.setcCount(getAllCluster().size());

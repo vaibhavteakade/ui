@@ -11,19 +11,22 @@ public class VimService {
 
 	private static ServiceInstance instance = null;
 	
-	public static ServiceInstance getServiceInstance(){
+	public static ServiceInstance getServiceInstance() throws Exception{
 		if(instance == null ){
 			try {
-				instance =  new ServiceInstance(new URL(
-				        Constants.VC_URL), Constants.VC_UNAME, Constants.VC_PASS,
+				instance =  new ServiceInstance(new URL("https://" +
+				        Constants.VC_URL + "/sdk"), Constants.VC_UNAME, Constants.VC_PASS,
 				        true);
 			} catch (RemoteException e) {
-				e.printStackTrace();
+				throw new Exception(e.getMessage());
 			} catch (MalformedURLException e) {
-				e.printStackTrace();
+				throw new Exception(e.getMessage());
 			}
 		}
 		return instance;
+	}
+	public static void resetInstance(){
+		instance = null;
 	}
 	
 }
