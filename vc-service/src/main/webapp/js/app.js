@@ -1,4 +1,4 @@
-var app = angular.module('vcApp', [ 'ngRoute', 'ngGrid','ngTable' ]);
+var app = angular.module('vcApp', [ 'ngRoute', 'ngGrid','ngTable','ngCookies' ]);
 app.config(function($routeProvider,$locationProvider) {
 	$routeProvider.when("/dashboard", {
 		templateUrl : "partials/dashboard.html",
@@ -27,7 +27,7 @@ app.config(function($routeProvider,$locationProvider) {
 		controller : "loginController"
 	})
 	.otherwise({
-		redirectTo : "/dashboard"
+		redirectTo : "/login"
 	});
 })
 

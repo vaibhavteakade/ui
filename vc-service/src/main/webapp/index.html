@@ -63,7 +63,7 @@ body {
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#/dashboard">Dashboard</a></li>
 				<li><a href="#/virtualmachine">Inventory</a></li>
-				<li><a href="#/logout">Logout</a></li>
+				<li ng-click="logout()"><a href="#/logout">{{showLogout}}</a></li>
 			</ul>
 
 			<form role="search" class="navbar-form navbar-left">
@@ -89,6 +89,7 @@ body {
 <script type="text/javascript" src="lib/ng-grid-2.0.14.min.js"></script>
 <script src="lib/canvasjs.min.js"></script>
 <script type="text/javascript" src="lib/angular/ui-bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/angular/angular-cookies.min.js"></script>
 <script type="text/javascript" src="lib/ng-table.min.js"></script>
 <script type="text/javascript" src="lib/plugins/ng-grid-flexible-height.js"></script>
 
